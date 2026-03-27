@@ -1,0 +1,64 @@
+  1: === OCR: Full Page 1 (Real Positions) ===
+  2: ©
+  3:                                                                                               Europartners    Mexico                                      COMPROBANTE    DIGITAL POR INTERNET
+  4:                   X[O
+  5:                                                                                                  RFC EME020824U4A                                                      FACTURA
+  6:                                                                                                TELS: (52)(81) 82202630                     Serie y folio interno               FCUS-620207
+  7:                                                                                                   Av. Revolucién 649
+  8:                                            g  lobal                                        Colonia Jardin Espafiol Monterrey                Folio fiscal                      9213870F-EB36-11F0-8185-29E22D4BD804
+  9:                         www.xpdglobal.com                                                   Nuevo Leon Mexico, C.P. 64820                  No. de Serie del Cert. del SAT        00001000000700047508
+ 10:                                                                                                                                            Fecha y hora de emisén            2026-01-06T13:33:26
+ 11:            Régimen Fiscal: 601                                                                                       @oot SASY,                 Fecha y hora certificacion        2026-01-067113:33:55
+ 12:                                                                                                                       oO
+ 13:                                                                                      an TAS,                       NT?                   No. Certificacado               00001000000508234030
+ 14:            Lugar de expedicion: Monterrey, Nuevo Ledn, CP 64820                                                      TAIT       A\              Tipo de comprobante:             I-Ingreso
+ 15:            Embarcador/Shipper:                                                                                  Fecha/Date: 1/6/2026
+ 16:                                                                                                                                                                                 UT
+ 17:            TELAMON   CORPORATION    Circuito Plan de Pardillo #3 Parque Industrial                                 REF: XPD/MX/AOBC/25110128217
+ 18:            Fresnillo Fresnillo Zacatecas 99056 Mexico
+ 19:                                                                                                                 Facturado a/Invoice:
+ 20:                                                                                                               CUS13602         AUTOLIV    ASP  INC
+ 21:                                                                                                                RFC - XEXX010101000
+ 22:            Consianatario/Consianee:                                                                            Airport Road 3350
+ 23:                                                                                                                Ogden CP 64820
+ 24:            AUTOLIV  AOA  1000 West 3300 South Ogden Utah 84401 United States                                 Utah United States
+ 25:                                                                                                                Uso CFDI: S01                                               Regimen fiscal:616
+ 26:            Linea/Line:                                     Buque:/VSL/Vuelo/FLT:
+ 27:                                                                                                               ETD/ETA:                                                 Flete/freiaht Terms:
+ 28:            XPD ON BOARD  COURIER
+ 29:                                                                                                              11/19/2025                 11/20/2025                      EXW
+ 30:            Fact. Comercial:/Comercial INV:                     Origen:/Origin
+ 31:            AOA // PTN: $92640 // Hugo                     SLP - Ponciano Arriaga International                B/L:MAWB:                                         FBL:/HAW:
+ 32:            Acosta // Telamon. Zacatecas -                 Airport. Mexico                                          N/A
+ 33:          Corresponsal:/Agent:
+ 34:                                                              Fact.Corr:/Freight Invoice:                          Aduana/Custom House:                               Destino:/Destination:
+ 35:            XPD ON BOARD  COURIER
+ 36:                                                                                                                                                                    SLC - Salt Lake City International Airpo
+ 37:           Marcas y Nos:/Marks
+ 38:                                                             Bultos:/PCS                                       Flete Terr:/Inland Freight:                          Condiciones de Pago:/terms of payment:
+ 39:           AOA // PTN: $92640 // Hugo Acosta // Telamon.
+ 40:           Zacatecas - AOA                                      10                                                                                                          30 Dias
+ 41:                                                          Contenido:/Content                                                                                   Peso Bruto:/Gross weigth       Volumen:/Volume
+ 42:                                                            general                                                                        Unidad de Medida        997.9 KG                530.940.874 CM
+ 43:                                                                                                                          Impuestos
+ 44:            81141601                         Hand Carry Service                                                         0        0.00            E48                        USD                3,598.00
+ 45:            (THREE THOUSAND  FIVE HUNDRED NINETY AND EIGHT WITH 00 /100 USD)
+ 46:            Metodo de pago: PPD - Pago en parcialidades o diferido
+ 47:                                                                                                                                                 PARCIAL                                               3,598.00
+ 48:            Medio de pago: 99 - Por Definir
+ 49:            Cuenta de Pago: NO DEFINIDO                                                                                                          L.V.A. 0%                                                   0.00
+ 50:            Tipo de cambio: 17.880300
+ 51:                                                                                                                                                 TOTAL    :                                           3,598.00
+ 52:            Dias de credito: 30 Dias
+ 53:            Tipo relacion:
+ 54:                CFDI Relacionado:                                                  Tipo Relacion:
+ 55:                      OBSERVACIONES:/REMARKS:
+ 56:                      POR ESTE PAGARE  ME(NOS) OBLIGO(AMOS)  A PAGAR  INCONDICIONALMENTE   EL DIA EN LA CIUDAD DE MONTERREY,  N.L. A LA ORDEN  DE
+ 57:                      EUROPARTNERS   MEXICO, S.A. DE C.V. LA CANTIDAD  DE (THREE THOUSAND   FIVE HUNDRED   NINETY AND  EIGHT WITH 00 /100 USD) QUE
+ 58:                      HE(MOS) RECIBIDO A Ml (NUESTRA)ENTERA  SATISFACCION.
+ 59:                      LA FALTA DE PAGO A SU VENCIMIENTO CAUSARA  EL INTERES DE 3% MENSUAL.
+ 60:                     LA MERCANCIA RW AN  LA VIAJA VIA  POR CUENTA Y RIESGO WIM DEL WEL Ee EMBARCADOR ARWA
+ 61:                                                                                                       Page  1 of 2
+ 62: === End of Page 1 ===
+
+Total lines: 62

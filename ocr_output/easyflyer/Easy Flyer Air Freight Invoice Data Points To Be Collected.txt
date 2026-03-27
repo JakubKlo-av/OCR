@@ -1,0 +1,41 @@
+  1: === OCR: Full Page 1 (Real Positions) ===
+  2: 2502105753                                        INVOICE                                                             —=EASVFLYERS
+  3:             Supplier                                                                                                          Customer
+  4:             Easy       Flyers        USA       Logistics,           Inc                                                      Autoliv         Mexico          S.A.     de    C.V.
+  5:             1110      Brickell      Avenue         Suite     700                                                           Av.    de    Los    Sauces        No.    9
+  6:             33131        Miami       FL                                                                                      Parque        Industrial        Lerma
+  7:             US      United       States       of  America                                                                   52000        Lerma
+  8:                   -
+  9:             TAX     ID:              83-2967312                                                                             Mexico
+ 10:             E-mail:                   administration@easyflyers.com                                                           ID:                  AME-960412-A92
+ 11:             Phone:                    1-877-957-0143                                                                         TAX     ID:          AME960412A92
+ 12:             Date                                 Taxable         date                 Due     date                                            Total       due          5,253.00           USD
+ 13:             11/18/2025                           11/18/2025                           12/18/2025                                                   Subtotal            5,253.00         USD
+ 14:              Description/Price             breakdown                                                                           VAT     %                           Base                           TAX                         Total
+ 15:              AIR-FREIGHT:            LERMA,       MX      BUFFALO,         US                                                0.00    %            5,253.00        USD                  0.00    USD           5,253.00        USD
+ 16:                                                          -
+ 17:                                                                                                                                                    5,253.00          USD                 0.00     USD         5,253.00          USD
+ 18:             From:      Autoliv       Mexico        S.A.    de   C.V.       Toluca          AMX         MX
+ 19:                                                                            -               -           -                       Bank       details
+ 20:            To:    CALSPAN,           LLC       US
+ 21:                                               -
+ 22:                                                                                                                                     Payment          method         Bank      transfer
+ 23:             Number          of  pieces:       2
+ 24:             Gross      weight:        181.50        KG                                                                                       Bank       name      JPMorgan           Chase       Bank      N.A.
+ 25:             Shipment           number:          US2540588             /PTN      L92210                                                   Bank      address
+ 26:             Reference           number:         Autoliv       Part#      665622900F              Customer
+ 27:                                                                                                                                           Bank      account         367832067
+ 28:             Part#      5A7D295
+ 29:                                                                                                                                                            IBAN
+ 30:             MAWB:         006-45160710
+ 31:                                                                                                                                                  BIC/SWIFT           CHASUS33
+ 32:                                                                                                                                       Routing        number         021000021
+ 33:                                                                                                                                          EASYFLYERS                        USA         LOGISTICS
+ 34:                                                                                                                                                                                                                       ING.
+ 35:                                                                                                                                                                RICKELL
+ 36:                                                                                                                                                                                        AVE         STE7
+ 37:                                                                                                                                                                                                 ?
+ 38:                                                                                                                                                                MIAMI,           FL331     .     31  :  :
+ 39: === End of Page 1 ===
+
+Total lines: 39

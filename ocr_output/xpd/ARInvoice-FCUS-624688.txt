@@ -1,0 +1,65 @@
+  1: === OCR: Full Page 1 (Real Positions) ===
+  2: ©
+  3:                                                                                               Europartners    Mexico                                      COMPROBANTE    DIGITAL POR INTERNET
+  4:                   X[O
+  5:                                                                                                  RFC EME020824U4A                                                      FACTURA
+  6:                                                                                                TELS: (52)(81) 82202630                     Serie y folio interno               FCUS-624688
+  7:                                                                                                   Av. Revolucién 649
+  8:                                            g  lobal                                        Colonia Jardin Espafiol Monterrey                Folio fiscal                      78E00007-F639-11F0-843C-33CD79BC9F50
+  9:                         www.xpdglobal.com                                                   Nuevo Leon Mexico, C.P. 64820                  No. de Serie del Cert. del SAT        00001000000700047508
+ 10:                                                                                                                                            Fecha y hora de emisén            2026-01-20T13:51:55
+ 11:            Régimen Fiscal: 601                                                                                       @oot SASY,                 Fecha y hora certificacion        2026-01-207T13:52:46
+ 12:                                                                                      an TAS,              SS      \ols) N73                   No. Certificacado               00001000000508234030
+ 13:            Lugar de expedicion: Monterrey, Nuevo Ledn, CP 64820                                                      TAIT       A\              Tipo de comprobante:             I-Ingreso
+ 14:            Embarcador/Shipper:                                                                                  Fecha/Date: 1/20/2026
+ 15:                                                                                                                                                                                 UT
+ 16:            EICHSFELDER  SCHRAUBENWERK     GMBH  Rengelréder Weg  13 Heilbad                                    REF: XPD/MX/ACT/26010003384
+ 17:            Heiligenstadt Thiiringen 37308 Germany  DE811210116
+ 18:                                                                                                                 Facturado a/Invoice:
+ 19:                                                                                                               CUS11335         AUTOLIV    ASP  INC
+ 20:                                                                                                                RFC - XEXX010101000
+ 21:            Consianatario/Consianee:                                                                            Airport Road 3350
+ 22:                                                                                                                Ogden CP 64820
+ 23:            AUTOLIV  AST DEPOT  / CASAS INT 9355 Airway Road. suite 4 San Diego                                Utah United States
+ 24:            California 92154 United States
+ 25:                                                                                                                Uso CFDI: S01                                               Regimen fiscal:616
+ 26:            Linea/Line:                                     Buque:/VSL/Vuelo/FLT:
+ 27:                                                                                                               ETD/ETA:                                                 Flete/freiaht Terms:
+ 28:            LUFTHANSA   CARGO  AG                            LH456
+ 29:                                                                                                              1/15/2026                  1/15/2026                       DAP
+ 30:            Fact. Comercial:/Comercial INV:                     Origen:/Origin
+ 31:            ASP //PTN: 2091-F5F4-1GQYL  //                FRA - Frankfurt am Main Airport                     B/L:MAWB:                                         FBL:/HAW:
+ 32:            Sirenia Tirado // EICHSFELDER.                   Germany                                                 020-01408691                                    FRA-00009465
+ 33:          Corresponsal:/Agent:
+ 34:                                                              Fact.Corr:/Freight Invoice:                          Aduana/Custom House:                               Destino:/Destination:
+ 35:            LINKINPARTNER   EUROPE  GMBH
+ 36:                                                                                                                                                                    LAX - Los Angeles International Airport
+ 37:           Marcas y Nos:/Marks
+ 38:                                                             Bultos:/PCS                                       Flete Terr:/Inland Freight:                          Condiciones de Pago:/terms of payment:
+ 39:           ASP //PTN: 2091-F5F4-1GQYL // Sirenia Tirado //
+ 40:           EICHSFELDER. Alemania - CASAS                         5                                                                                                           30 Dias
+ 41:                                                          Contenido:/Content                                                                                   Peso Bruto:/Gross weigth       Volumen:/Volume
+ 42:                                                            general                                                                        Unidad de Medida        4.314 KG                3.264.000 CMB
+ 43:                                                                                                                          Impuestos
+ 44:            81141601                         Air Freight                                                                 0        0.00            E48                        USD               17,310.00
+ 45:            81141601                         Destination Charges                                                         0        0.00            E48                        USD                 1,500.00
+ 46:            81141601                         Origin Charges                                                              0        0.00            E48                        USD                2,920.00
+ 47:            (TWENTYONE THOUSAND  SEVEN HUNDRED THIRTY WITH 00 /100 USD)
+ 48:            Metodo de pago: PPD - Pago en parcialidades o diferido
+ 49:            Medio de pago: 99 - Por Definir                                                                                                        PARCIAL    :                                         21,730.00
+ 50:            Cuenta de Pago: NO DEFINIDO                                                                                                          I.V.A. 0%  :                                                0.00
+ 51:            Tipo de cambio: 17.686700
+ 52:                                                                                                                                                 TOTAL    :                                         21,730.00
+ 53:            Dias de credito: 30 Dias
+ 54:            Tipo relacion:
+ 55:                CFDI Relacionado:                                                  Tipo Relacion:
+ 56:                      OBSERVACIONES:/REMARKS:
+ 57:                      POR ESTE PAGARE  ME(NOS) OBLIGO(AMOS)  A PAGAR  INCONDICIONALMENTE   EL DIA EN LA CIUDAD DE MONTERREY,  N.L. A LA ORDEN  DE
+ 58:                      EUROPARTNERS   MEXICO, S.A. DE C.V. LA CANTIDAD  DE (TWENTYONE   THOUSAND   SEVEN  HUNDRED   THIRTY WITH  00 00   USD) QUE
+ 59:                      HE(MOS) RECIBIDO A Ml (NUESTRA)ENTERA  SATISFACCION.
+ 60:                      LA FALTA DE PAGO A SU VENCIMIENTO CAUSARA  EL INTERES DE 3% MENSUAL.
+ 61:                     LA MERCANCIA  VIAJA POR CUENTA Y RIESGO DEL EMBARCADOR
+ 62:                                                                                                       Page  1 of 2
+ 63: === End of Page 1 ===
+
+Total lines: 63

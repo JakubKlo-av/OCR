@@ -1,0 +1,45 @@
+{
+  "supplier_name": "XPD Global",
+  "input_directory": "C:\\Users\\jakub.klosowski\\OneDrive - Autoliv\\Desktop\\Invoices\\Xpd",
+  "prompt_file": "prompts/xpd.txt",
+  "max_pages": 1,
+  "ocr": {
+    "chars_per_pixel": 17,
+    "tesseract_psm": 11,
+    "tesseract_oem": 1,
+    "dpi": 300
+  },
+  "preprocess": {
+    "contrast": 1.8,
+    "sharpness": null,
+    "scale": 1.5,
+    "threshold_method": "adaptive",
+    "threshold_block": 21,
+    "threshold_c": 10,
+    "deskew": false
+  },
+  "field_map": {
+    "invoice_id":   "invoice_number",
+    "supplier":     "vendor",
+    "amount":       "amount",
+    "currency":     "currency",
+    "ship_from":    "shipper",
+    "ship_to":      "consignee",
+    "invoice_date": "invoice_date",
+    "due_date":     "due_date",
+    "ship_date":    "ship_date",
+    "delivery_date": "delivery_date",
+    "delivery_time": "delivery_time",
+    "delivery_timezone": "delivery_timezone",
+    "bill_to":      "bill_to",
+    "weight_value": "weight_value",
+    "weight_unit":  "weight_unit"
+  },
+  "references": [
+    {"type": "TMS",          "json_key": "tms_number"},
+    {"type": "PTN",          "json_key": "ptn_number"},
+    {"type": "AUTOLIV_PERSON_CONCERNED", "json_key": "autoliv_person_concerned"},
+    {"type": "MAWB",         "json_key": "mawb"},
+    {"type": "HAWB",         "json_key": "hawb"}
+  ]
+}

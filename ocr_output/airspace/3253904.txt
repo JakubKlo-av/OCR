@@ -1,0 +1,39 @@
+  1: === OCR: Full Page 1 (Real Positions) ===
+  2: Invoice
+  3:             AIRSPACE
+  4:                                                                                                                                                      #3253904
+  5:                                                                                                                                                            12/22/2025
+  6:             Bill To                                               Remit  Payment    To                                TOTAL
+  7:             Autoliv    Domestic                                  Airspace   Technologies,     Inc
+  8:                      -
+  9:             7 World   Trade   Center                             PO  Box  737032
+ 10:             Klarabersviadukten      70                          Dallas, TX 75373-7032     USA
+ 11:             Stockholm    Stockholm    County   11120          (858) 263-1953
+ 12:             Sweden                                               remittance@airspace.com                                                     1               °
+ 13:                                                                  Airspace   ACH   Information:
+ 14:                                                                   Bank   Name:   JPMorgan    Chase
+ 15:                                                                  ABA   Number:    322271627                                                  Due   Date:  3/22/2026
+ 16:                                                                  Account:   Number:    866702282
+ 17:                                                                  Account:   Airspace   Technologies,     Inc.
+ 18:             Terms                  Due Date              Order Number          Order References      Commodity              Order Source                  PO#
+ 19:             Net 90                3/22/2026             Sales Order           Autoliv Brasov        Other   UN3268,       Order  builder
+ 20:                                                                                                                -
+ 21:                                                           #3253904               Service parts         Class 9, “Safety
+ 22:                                                                                  Alejandra  Duran      Devices”
+ 23:             Date                  AWB                    Tracking ID           Pickup Address        Delivery Address      Dims                  POD
+ 24:             12/22/2025            07404320680           ATGGH6GKXH            Autoliv Brasov,       AUTOLIV   ASP,        80.0*60.0*62.0c        Delivered  at Dec
+ 25:                                                                                  str. Bucegi  nr. 8,    INC. (ABK), 1330      m, 125.0kg            22 25 13 05 MST
+ 26:                                                                                  Brasov, 500053       West  3300  South,                           and signed  by
+ 27:                                                                                                         Ogden,  UT, 84401                           Antonio  Ruiz in
+ 28:                                                                                                                                                       Shipping  and
+ 29:                                                                                                                                                       Receiving
+ 30:             Item                                   Description                           Quantity                                                              Amount
+ 31:             Pickup                                SPECIAL  RATE                         0.0                                                                  $2,843.00
+ 32:                                                                                                                                    Subtotal                  $2,843.00
+ 33:                                                                                                                               Tax  Total  (%)
+ 34:                                                                                                                                         Total                $2,843.00
+ 35:                                                                                                                               Amount     Due                $2,843.00
+ 36:                                                                                                                                                                 1 of 1
+ 37: === End of Page 1 ===
+
+Total lines: 37

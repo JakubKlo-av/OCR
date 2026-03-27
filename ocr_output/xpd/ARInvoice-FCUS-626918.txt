@@ -1,0 +1,64 @@
+  1: === OCR: Full Page 1 (Real Positions) ===
+  2: ©
+  3:                                                                                               Europartners    Mexico                                      COMPROBANTE    DIGITAL POR INTERNET
+  4:                   X[O
+  5:                                                                                                  RFC EME020824U4A                                                      FACTURA
+  6:                                                                                                TELS: (52)(81) 82202630                     Serie y folio interno               FCUS-626918
+  7:                                                                                                   Av. Revolucién 649
+  8:                                            g  lobal                                        Colonia Jardin Espafiol Monterrey                Folio fiscal                      85D7A1DE-FC80-11F0-B0C0-61D4EFDFB11F
+  9:                         www.xpdglobal.com                                                   Nuevo Leon Mexico, C.P. 64820                  No. de Serie del Cert. del SAT        00001000000700047508
+ 10:                                                                                                                                            Fecha y hora de emisén            2026-01-28T13:35:38
+ 11:            Régimen Fiscal: 601                                                                                       @oot SASY,                 Fecha y hora certificacion        2026-01-28T13:36:42
+ 12:                                                                                      an TAS,              SS      \ols) N73                   No. Certificacado               00001000000508234030
+ 13:            Lugar de expedicion: Monterrey, Nuevo Ledn, CP 64820                                                      TAIT       A\              Tipo de comprobante:             I-Ingreso
+ 14:            Embarcador/Shipper:                                                                                  Fecha/Date: 1/28/2026
+ 15:                                                                                                                                                                                 UT
+ 16:            HUACHI(VIETNAM)   NEW  ENERGY  7A Zone.Cua Ong Ward. Quang Ninh Cam                              REF: XPD/MX/ACT/26010007547
+ 17:            Pha Quang Ninh 01214 (correspondien Vietnam
+ 18:                                                                                                                 Facturado a/Invoice:
+ 19:                                                                                                               CUS13602         AUTOLIV    ASP  INC
+ 20:                                                                                                                RFC - XEXX010101000
+ 21:            Consianatario/Consianee:                                                                            Airport Road 3350
+ 22:                                                                                                                Ogden CP 64820
+ 23:            AUTOLIV  AOA  1000 West 3300 South Ogden Utah 84401 United States                                 Utah United States
+ 24:                                                                                                                Uso CFDI: S01                                               Regimen fiscal:616
+ 25:            Linea/Line:                                     Buque:/VSL/Vuelo/FLT:
+ 26:                                                                                                               ETD/ETA:                                                 Flete/freiaht Terms:
+ 27:            KOREAN  AIRLINES                                 KE0017
+ 28:                                                                                                              1/23/2026                  1/25/2026                       DAP
+ 29:            Fact. Comercial:/Comercial INV:                     Origen:/Origin
+ 30:            ASP // PTN: 20DQ-L3K0-1GQYU   //              HAN - Noi Bai International Airport                  B/L:MAWB:                                         FBL:/HAW:
+ 31:            Hugo Acosta // Huachi. Vietnam -               Vietnam                                                 180-52475673                                    AEVN900450
+ 32:          Corresponsal:/Agent:
+ 33:                                                              Fact.Corr:/Freight Invoice:                          Aduana/Custom House:                               Destino:/Destination:
+ 34:            XPD GLOBAL  FORWARDING    (VIET
+ 35:            NAM) COMPANY   LIMITED                                                                                                                                 LAX - Los Angeles International Airport
+ 36:           Marcas y Nos:/Marks
+ 37:                                                             Bultos:/PCS                                       Flete Terr:/Inland Freight:                          Condiciones de Pago:/terms of payment:
+ 38:           ASP // PTN: 20DQ-L3K0-1GQYU // Hugo Acosta //
+ 39:           Huachi. Vietnam - AOA                                 3                                                                                                           30 Dias
+ 40:                                                          Contenido:/Content                                                                                   Peso Bruto:/Gross weigth       Volumen:/Volume
+ 41:                                                            general                                                                        Unidad de Medida        291.99 KG               1.189.188 CMB
+ 42:                                                                                                                          Impuestos
+ 43:            81141601                         Destination Charges                                                         0        0.00            E48                        USD                 1,600.00
+ 44:            81141601                         Origin charges                                                              0        0.00            E48                        USD                  511.00
+ 45:            81141601                         Air Freight                                                                 0        0.00            E48                        USD                4,874.00
+ 46:            (SIX THOUSAND  NINE HUNDRED EIGHTY AND FIVE WITH 00 /100 USD)
+ 47:            Metodo de pago: PPD - Pago en parcialidades o diferido
+ 48:            Medio de pago: 99 - Por Definir                                                                                                        PARCIAL    :                                          6,985.00
+ 49:            Cuenta de Pago: NO DEFINIDO                                                                                                          I.V.A. 0%  :                                                0.00
+ 50:            Tipo de cambio: 17.283000
+ 51:                                                                                                                                                 TOTAL    :                                           6,985.00
+ 52:            Dias de credito: 30 Dias
+ 53:            Tipo relacion:
+ 54:                CFDI Relacionado:                                                  Tipo Relacion:
+ 55:                      OBSERVACIONES:/REMARKS:
+ 56:                      POR ESTE PAGARE  ME(NOS) OBLIGO(AMOS)  A PAGAR  INCONDICIONALMENTE   EL DIA EN LA CIUDAD DE MONTERREY,  N.L. A LA ORDEN  DE
+ 57:                      EUROPARTNERS   MEXICO, S.A. DE C.V. LA CANTIDAD  DE (SIX THOUSAND   NINE HUNDRED   EIGHTY AND  FIVE WITH  00 /100 USD) QUE
+ 58:                      HE(MOS) RECIBIDO A Ml (NUESTRA)ENTERA  SATISFACCION.
+ 59:                      LA FALTA DE PAGO A SU VENCIMIENTO CAUSARA  EL INTERES DE 3% MENSUAL.
+ 60:                     LA MERCANCIA  VIAJA POR CUENTA Y RIESGO DEL EMBARCADOR
+ 61:                                                                                                       Page  1 of 2
+ 62: === End of Page 1 ===
+
+Total lines: 62

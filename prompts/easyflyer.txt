@@ -1,0 +1,145 @@
+Return only the JSON.
+
+The following is an OCR extract of an Easy Flyers USA Logistics, Inc invoice.
+Extract all fields with ABSOLUTE PRECISION.
+Each field MUST be extracted exactly as it appears in the OCR text — do not infer, calculate, or paraphrase.
+
+1. vendor
+   Always return exactly: "EASYFLYERS USA LOGISTICS INC".
+
+2. invoice_number
+   Found on the FIRST line of the document (line 2 in the OCR), to the LEFT of the word "INVOICE".
+   Extract ONLY the numeric value that appears before the word "INVOICE" on that line (e.g. "2502105753").
+   Do NOT extract any other number from the document.
+
+3. invoice_date
+   Found in the row containing columns "Date", "Taxable date", "Due date".
+   Extract the value under the FIRST column "Date".
+   Convert to DD/MM/YYYY format.
+
+4. ship_date
+   Same as invoice_date.
+
+5. due_date
+   Found in the same row as "Date" and "Taxable date".
+   Extract the value under the "Due date" column — the THIRD date on that row .
+   Convert to DD/MM/YYYY format.
+
+6. bill_to
+   Always set bill_to to 'Autoliv ASP, Inc. 3350 Airport Road Ogden, UT 84405 USA'. Do not extract from the document.
+
+7. shipper
+   Found on the line starting with "From:".
+   In the OCR this looks like:
+     "From:      Acme       Industrial       Corp.      Sp.   z   o.o.            Bank       details"
+   followed immediately by a continuation line (no label):
+     "PL"
+   Extract the COMPLETE text after "From:" — include the "From:" line AND all continuation lines that follow, until you reach a line starting with "To:". Stop there.
+   Continuation lines are short fragments WITHOUT any label (e.g. "PL", "Ltd.", country codes) — they are the remainder of the shipper name that wrapped to the next line due to OCR layout.
+   Ignore any unrelated text appearing to the RIGHT on the same line (e.g. "Bank details", "Payment method") — these belong to a separate column.
+   Join all parts with a space (e.g. "Acme Industrial Corp. Sp. z o.o. PL").
+   IMPORTANT: OCR commonly misreads the letter 'S' as '$'. If '$' appears where it cannot be a currency symbol (e.g. "A.$"), treat it as 'S' (→ "A.S.").
+
+8. consignee
+   Found on the line starting with "To:".
+   Extract the COMPLETE and FULL text after "To:" on that line.
+
+
+9. amount
+   Found on the line labeled "Total due".
+   In the OCR this looks like: "Total     due        5,253.00        USD"
+   Extract ONLY the numeric value — strip commas, no currency symbol (e.g. "5253.00").
+
+10. currency
+    Found on the same line as "Total due" or from the first line item.
+    In the OCR this looks like: "Total     due        5,253.00        USD"
+    Extract the 3-letter code that appears after the amount (e.g. "USD").
+
+11. weight_value
+    Found on the line containing "Gross weight:" (OCR may show spacing like "Gross    weight:").
+    In the OCR this looks like: "Gross    weight:     181.50     KG"
+    Extract only the numeric value (e.g. "181.50").
+
+12. weight_unit
+    Found on the same line as weight_value.
+    In the OCR this looks like: "Gross    weight:     181.50     KG"
+    Extract only the unit that follows the number (e.g. "KG").
+
+13. line_items
+    Located in the table that begins with the header: "Description/Price breakdown | VAT % | Base | TAX | Total".
+    In the OCR this table appears after the date row, and each data row looks like:
+      "AIR-FREIGHT:  LERMA, MX  BUFFALO, US    0.00 %    5,253.00  USD    0.00  USD    5,253.00  USD"
+    CRITICAL: Extract EVERY data row — do NOT stop at the first row or skip any charges.
+    For EACH row extract:
+      - description: the full charge name and route (e.g. "AIR-FREIGHT: LERMA, MX BUFFALO, US")
+      - vat_pct: the VAT percentage (e.g. "0.00")
+      - unit_price: the base amount (e.g. "5253.00") — numeric only, no currency symbol
+      - tax_type: leave as "N/A" if not present
+      - amount: the total amount for that row (e.g. "5253.00") — numeric only
+      - currency: 3-letter code (e.g. "USD")
+    Stop when you reach the subtotal/summary line (a line with NO description, only totals).
+    Return as a JSON array. If no line items, return [].
+
+14. number_of_pieces
+    Found on the line containing "Number of pieces:" (OCR may show it as "Number       of  pieces:").
+    Extract ONLY the numeric value after the label .
+
+15. shipment_number
+    Found on the line containing "Shipment number:" (OCR: "Shipment        number:").
+    The line looks like: "Shipment        number:       US2540588         /PTN    L92210"
+    Extract the value BEFORE "/PTN" (e.g. "US2540588").
+
+16. ptn
+    Found on the same line as "Shipment number:", after "/PTN".
+    The line looks like: "Shipment        number:       US2540588         /PTN    L92210"
+    Extract the value AFTER "/PTN" (e.g. "L92210").
+
+17. reference_number
+    Found on the line containing "Reference number:" (OCR may show: "Reference       number:").
+    and may wrap to the next line
+    Keep collecting wrapped lines until you reach the line containing "MAWEB:" or "MAWB:". Stop there.
+    Extract the FULL value after "Reference number:" — join wrapped lines with " " (e.g. "Autoliv Part# 665622900F Customer Part# 5A7D295").
+
+18. mawb
+    Found on the line labeled "MAWEB:" or "MAWB:" (OCR sometimes reads it as "MAWEB:").
+    In the OCR this looks like: "MAWEB:      006-45160710"
+    Extract ONLY the value after the label (e.g. "006-45160710").
+
+19. hawb
+    Found on the line labeled "HAWB:".
+    Extract ONLY the value after the label (e.g. "US2600754").
+
+=== RULES ===
+- If a field cannot be found, set its value to "N/A" (or [] for line_items).
+- Do NOT infer, estimate, or calculate — extract only what is literally present in the OCR.
+- Do NOT include any explanation, commentary, or markdown — return ONLY the raw JSON.
+- Return a single JSON array with exactly one object.
+
+[
+  {{
+    "vendor": ...,
+    "invoice_number": ...,
+    "invoice_date": ...,
+    "ship_date": ...,
+    "due_date": ...,
+    "bill_to": ...,
+    "shipper": ...,
+    "consignee": ...,
+    "amount": ...,
+    "currency": ...,
+    "weight_value": ...,
+    "weight_unit": ...,
+    "line_items": [...],
+    "number_of_pieces": ...,
+    "shipment_number": ...,
+    "ptn": ...,
+    "reference_number": ...,
+    "mawb": ...,
+    "hawb": ...
+  }}
+]
+
+Document text:
+"""
+{extracted_text}
+"""

@@ -1,0 +1,191 @@
+Return only the JSON.
+
+The following is an OCR extract of a Courier Network Inc. invoice. Your task is to extract the following fields with absolute precision.
+Each field must be extracted exactly as it appears in the document, even if there are typos or formatting issues in the OCR.
+
+The OCR text preserves the original horizontal layout of the document. The document has THREE columns:
+- LEFT column: shipment details (AWB#, Pickup Date, Depart/Arrive Port, Weight, Pieces, Value, Service, Pod, Signed)
+- CENTER column: SHIPPER block and CONSIGNEE block (names and addresses)
+- RIGHT column: additional references (PTN, QUSD, REQNA, distances)
+
+Read each line carefully and identify which column each value belongs to based on its horizontal position.
+
+Extract the following fields:
+
+1. supplier
+   Always set supplier to "Courier Network Inc."
+
+2. invoice_no
+   Found on the line containing "Tax Invoice".
+   In the OCR this looks like: "Tax    Invoice     US725039316               Original"
+   Extract ONLY the alphanumeric code immediately after "Tax Invoice" — ignore any trailing words like "Original".
+   e.g. "US725039316".
+
+3. invoice_date
+   Found in the upper-right portion of the document, on a line containing "Invoice Date:".
+   In the OCR this looks like: "Invoice  Date:  11/30/25"
+   Extract only the date value after "Invoice Date:" (e.g. "11/30/25").
+   Convert to DD/MM/YYYY format (e.g. "30/11/2025").
+
+4. bill_to
+   Always set bill_to to 'Autoliv ASP, Inc. 3350 Airport Road Ogden, UT 84405 USA'. Do not extract from the document.
+
+5. awb
+   Found in the LEFT column, on a line containing "AWB #:" or "IAWB#:" (OCR sometimes reads it as "IAWB #:").
+   In the OCR this looks like: "IAWB #: 11560543"
+   Extract only the numeric/alphanumeric value after the label (e.g. "11560543").
+
+6. ship_date
+   Found in the LEFT column, on a line containing "Pickup Date:".
+   In the OCR this looks like: "Pickup Date: 25/11/2025"
+   Extract only the date value after "Pickup Date:" (e.g. "25/11/2025").
+   Convert to DD/MM/YYYY format.
+
+7. delivery_date
+   Found in the LEFT column, on a line containing "Pod:".
+   In the OCR this looks like: "Pod: 26/11/25 14:55:00"
+   Extract only the DATE part after "Pod:" (e.g. "26/11/25").
+   Convert to DD/MM/YYYY format (e.g. "26/11/2025").
+
+8. delivery_time
+   Found on the same line as the delivery date (the "Pod:" line).
+   In the OCR this looks like: "Pod: 26/11/25 14:55:00"
+   Extract only the TIME part that follows the date (e.g. "14:55:00").
+
+9. delivery_timezone
+   Set N/A for all documents as this is not present in the OCR.
+
+10. shipper
+    The label "SHIPPER:" appears in the CENTER column of the document.
+    Collect ALL lines below "SHIPPER:" in the CENTER column until the line containing "CONSIGNEE:".
+    In the OCR this looks like:
+      "SHIPPER:"
+      "NITTO, INC"
+      "120 FORTUNE   DR"
+      "FRANKFORT    40601"
+      "KY,US"
+    → extract: "NITTO, INC, 120 FORTUNE DR, FRANKFORT 40601, KY,US"
+    CRITICAL: Include ALL address lines — company name, street, city/zip, AND the country code (e.g. "KY,US", "HU", "MX"). The last line is often the country or country+state code and MUST NOT be omitted.
+    IMPORTANT: OCR commonly misreads 'S' as '$'. If '$' appears where it cannot be a currency symbol, treat it as 'S'.
+    Combine all parts into one string separated by ", ".
+
+11. consignee
+    The label "CONSIGNEE:" appears in the CENTER column (OCR may read it as "CONSIGNEE!").
+    Collect ALL lines below "CONSIGNEE:" in the CENTER column until the billing table begins (the billing table header contains "Service Description").
+    In the OCR this looks like:
+      "CONSIGNEE:"
+      "AUTOLIV  STEERING   WHEELS   MEXICO  S$ DE"
+      "CIRCUITO  EL MARQU%S    NORTE  #25"
+      "EL MARQUES    QUERETARO    76246"
+      "QA,MX"
+    → extract: "AUTOLIV STEERING WHEELS MEXICO S DE, CIRCUITO EL MARQUES NORTE #25, EL MARQUES QUERETARO 76246, QA,MX"
+    CRITICAL: Include the country code at the end (e.g. "QA,MX", "KY,US", "HU") — do NOT omit it.
+    IMPORTANT: OCR misreads 'S' as '$'. Replace '$' with 'S' in non-numeric context.
+    Do NOT add any characters, symbols, or letters that are not present in the OCR text.
+    Combine all parts into one string separated by ", ".
+
+12. mawb
+    This field may not always exist.
+    Found in the RIGHT column, on a line containing "MAWB:".
+    In the OCR this looks like eg.: "MAWB: 871-543789"
+    Extract only the value after "MAWB"
+    IMPORTANT: OCR commonly misreads 'S' as '$'. If the extracted PTN value starts with '$', replace it with 'S'
+
+
+13. ptn
+    Found in the RIGHT column, on a line containing "PTN:".
+    In the OCR this looks like: "PTN: 892819"
+    Extract only the value after "PTN:" (e.g. "892819").
+    IMPORTANT: OCR commonly misreads 'S' as '$'. If the extracted PTN value starts with '$', replace it with 'S' (e.g. "$92640" → "S92640").
+
+14. reqna
+    Found in the RIGHT column, on a line containing "REQNA:".
+    In the OCR this looks like: "REQNA:  Hugo Acosta"
+    Extract only the value after "REQNA:" (e.g. "Hugo Acosta").
+
+15. tms_number
+    Found at the BOTTOM of the document, AFTER the billing table and payment terms section, on a line containing "TMS Number:".
+    In the OCR this looks like: "TMS   Number:   1166922" .
+    Extract only the value after "TMS Number:" (e.g. "1166922").
+
+16. weight_value
+    Found in the LEFT column, on a line containing "WEIGHT:" or "EIGHT:" (OCR sometimes drops the leading "W").
+    In the OCR this looks like: "EIGHT: 71.00 LBS" or "WEIGHT: 71.00 LBS"
+    Extract only the numeric part (e.g. "71.00").
+
+17. weight_unit
+    Found on the same line as weight_value.
+    In the OCR this looks like: "EIGHT: 71.00 LBS"
+    Extract only the unit (e.g. "LBS" or "KG").
+
+18. pieces
+    Found in the LEFT column, on a line containing "PIECES:".
+    In the OCR this looks like: "PIECES: 1"
+    Extract only the numeric value after "PIECES:" (e.g. "1").
+
+19. line_items
+    Found after the header row containing "Service Description | Amount | Currency | Exchange Rate | Amount Inv Currency".
+    In the OCR the header looks like:
+      "Service    Description    Amount    Currency    Exchange       Rate    Amount      Inv  Currency"
+    Each data row looks like:
+      "Hand   Carry    4,090.00    USD    1.00    4,090.00"
+    CRITICAL: Extract EVERY data row — do NOT stop after the first (base rate) row.
+    All fees listed (e.g. "Hand Carry", "Overnight Drive", "Truck Ordered Not Used", fuel surcharges, etc.) MUST be included.
+    Stop only when you reach the line containing "TOTAL".
+    For each row extract:
+      - description: full charge name 
+      - amount: numeric only, no commas 
+      - currency: 3-letter code 
+      - exchange_rate: numeric 
+      - amount_inv_currency: numeric only, no commas 
+    Return as a JSON array. If no rows found, return [].
+
+20. invoice_total
+    Found on the line containing "Total Amount Due".
+    In the OCR this looks like: "Total  Amount    Due                                         USD   4,090.00"
+    Extract only the numeric value — remove commas (e.g. "4090.00").
+
+21. invoice_currency
+    Found on the same line as "Total Amount Due".
+    In the OCR this looks like: "Total  Amount    Due                                         USD   4,090.00"
+    Extract the 3-letter currency code that appears before the amount (e.g. "USD").
+
+=== RULES ===
+- If a field is missing, set its value to "N/A" (or [] for line_items).
+- NEVER invent, guess, or copy a value from another field — if the source is blank, return "N/A".
+- Do not infer or calculate any values; only extract what is present in the OCR.
+- OCR commonly misreads 'S' as '$'. When '$' appears in a non-numeric context (not immediately before a number), treat it as the letter 'S'.
+- Do NOT add characters, symbols, or letters that are not present in the OCR text.
+- Do not provide any explanation, only the JSON.
+- Return a single JSON array with one object.
+
+[
+  {{
+    "supplier": ...,
+    "invoice_no": ...,
+    "invoice_date": ...,
+    "bill_to": ...,
+    "awb": ...,
+    "ship_date": ...,
+    "delivery_date": ...,
+    "delivery_time": ...,
+    "delivery_timezone": ...,
+    "shipper": ...,
+    "consignee": ...,
+    "ptn": ...,
+    "mawb": ...,
+    "reqna": ...,
+    "tms_number": ...,
+    "weight_value": ...,
+    "weight_unit": ...,
+    "pieces": ...,
+    "line_items": [...],
+    "invoice_total": ...,
+    "invoice_currency": ...
+  }}
+]
+
+Document text:
+"""
+{extracted_text}
+"""

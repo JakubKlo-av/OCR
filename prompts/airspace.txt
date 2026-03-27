@@ -1,0 +1,203 @@
+Return only the JSON.
+
+The following is an OCR extract of an Airspace Technologies invoice.
+Your task is to extract the following fields with absolute precision.
+Each field must be extracted exactly as it appears in the document.
+If a field cannot be found, set its value to "N/A" (or [] for line_items). Do NOT copy values from other fields to fill missing ones.
+
+The document layout:
+- TOP: "Invoice" title, invoice number (XXXXXXX), invoice date
+- LEFT BLOCK: "Bill To" — recipient address
+- CENTER BLOCK: "Remit Payment To" — vendor/supplier details
+- RIGHT BLOCK: TOTAL amount and Due Date
+- ORDER TABLE: Terms | Due Date | Order Number | Order References | Commodity | Order Source | PO#
+- TRANSPORT TABLE (columns left to right): Date | AWB | Tracking ID | Pickup Address | Delivery Address | Dims | POD
+- ITEMS TABLE: Item | Description | Quantity | Amount (followed by Subtotal, Tax, Total, Amount Due)
+
+Extract the following fields:
+
+1. supplier
+    The company issuing the invoice.
+    Always set supplier to "Airspace". Do not extract from the document.
+
+2. invoice_no
+   The invoice number.
+   Found at the top-right of the document, on a line starting with "#" directly below the word "Invoice".
+   In the OCR this looks like: "                                                            #3253904"
+   Extract WITHOUT the # sign (e.g. "3253904").
+
+3. invoice_date
+   The invoice date.
+   Found at the top-right, on the line directly below the invoice number.
+   In the OCR this looks like: "                                                                 12/22/2025"
+   Convert to DD/MM/YYYY format (e.g. "22/12/2025").
+
+4. bill_to
+   The "Bill To" recipient name and address.
+   Always set bill_to to 'Autoliv ASP, Inc. 3350 Airport Road Ogden, UT 84405   USA'. Do not extract from the document.
+
+5. due_date
+   The payment due date.
+   Found in the header area (right block), on the line containing "Due Date:".
+   In the OCR this looks like: "Due Date: 3/22/2026"
+   Extract only the date value after "Due Date:" (e.g. "3/22/2026").
+   If not found, set to "N/A".
+   Convert to DD/MM/YYYY format.
+
+6. order_number
+   The sales order number.
+   Found in the ORDER TABLE under the column "Order Number" — the THIRD column.
+   Keep collecting from that column position until you reach the TRANSPORT TABLE header row (the line containing "AWB", "Tracking ID", "Pickup Address"). Stop there.
+   Combine all rows under that column (e.g. "Sales Order #3253904").
+
+7. order_references
+   The order reference value.
+   Found in the ORDER TABLE under the column "Order References" — the FOURTH column (after Terms, Due Date, Order Number).
+   CRITICAL: Only collect text that falls UNDER the "Order References" column header. The next column to the RIGHT is "Commodity" — do NOT read any text from the Commodity, Order Source, or PO# columns.
+   The value may wrap across multiple OCR lines — keep collecting text from that column position only, until you reach the TRANSPORT TABLE header row (the line containing "Pickup Address"). Stop there.
+   Join all collected fragments into one string separated by " ".
+   e.g. "103453646 TBC" or "ITW Automotive GMBH A91855" or "PTN-947968".
+
+8. ship_date
+   The shipment date.
+   Found in the TRANSPORT TABLE under the column "Date" — the FIRST (leftmost) column.
+   Extract the date from the first column (e.g. "12/22/2025").
+   Convert to DD/MM/YYYY format.
+
+9. delivery_date
+    The delivery date.
+    Found in the TRANSPORT TABLE under the column "POD" — the SEVENTH (rightmost) column.
+    In the OCR this looks like: "Delivered at Dec 22 25 13 05 MST and signed by Antonio Ruiz in Shipping and Receiving"
+    Extract the date from the start of the POD text — it is a 3-letter month + 2-digit day + 2-digit year (e.g. "Dec 22 25").
+    Convert to DD/MM/YYYY format (e.g. "Dec 22 25" → "22/12/2025").
+    If not found, set to "N/A".
+
+10. delivery_time
+    The delivery time.
+    Found in the TRANSPORT TABLE under the column "POD" (rightmost column).
+    In the OCR this looks like: "Delivered at Dec 22 25 13 05 MST"
+    The time is 4 digits after the date: "13 05" → extract "13:05".
+    If not found, set to "N/A".
+
+11. delivery_timezone
+    The delivery time zone.
+    Found in the TRANSPORT TABLE under the column "POD", immediately after the time digits.
+    In the OCR this looks like: "Delivered at Dec 22 25 13 05 MST"
+    Extract the 2-4 letter timezone abbreviation after the time (e.g. "MST", "PDT", "EST").
+    If not found, set to "N/A".
+
+12. awb
+    The Air Waybill number.
+    Found in the TRANSPORT TABLE under the column header "AWB" — the SECOND column.
+    The AWB is the second value on that row (e.g. "07404320680").
+    IMPORTANT: AWB and Tracking ID are completely separate columns. Do NOT copy the Tracking ID into AWB.
+    CRITICAL: Only set awb if there is VISIBLE text in the AWB column. If blank, return "N/A". Do NOT guess or copy from another field.
+
+13. tracking_id
+    The tracking identifier.
+    Found in the TRANSPORT TABLE under the column header "Tracking ID" — the THIRD column.
+    In the OCR the transport row looks like:
+      "12/22/2025    07404320680    ATGGH6GKXH    Autoliv Brasov ...    AUTOLIV ASP ..."
+    The Tracking ID is the third value on that row — always a short alphanumeric code (e.g. "ATGGH6GKXH").
+    OCR CORRECTION: If you see the character "]" anywhere in the tracking ID, replace it with the letter "J" (e.g. "ATK2ET2M9]" → "ATK2ET2M9J").
+    IMPORTANT: Do NOT copy this value into the awb field.
+
+14. shipper
+    The pickup / shipper address.
+    Found in the TRANSPORT TABLE under the column header "Pickup Address" — the FOURTH column.
+    Collect ALL lines of text appearing under "Pickup Address" — values may wrap to subsequent lines.
+    Stop when you reach the ITEMS TABLE header row (the line containing "Item" and "Description" and "Quantity").
+    Join all lines with ", " (e.g. "Autoliv Brasov, str. Bucegi nr. 8, Brasov, 500053").
+    If the Pickup Address column is blank, set to "N/A".
+
+15. consignee
+    The delivery / receiver address.
+    Found in the TRANSPORT TABLE under the column header "Delivery Address" — the FIFTH column.
+    Collect ALL lines of text appearing under "Delivery Address" — values may wrap to subsequent lines.
+    Stop when you reach the ITEMS TABLE header row (the line containing "Item" and "Description" and "Quantity").
+    Join all lines with ", " (e.g. "AUTOLIV ASP, INC. (ABK), 1330 West 3300 South, Ogden, UT, 84401").
+    If the Delivery Address column is blank, set to "N/A".
+
+16. dims
+    The raw dimensions/weight text from the Dims column of the TRANSPORT TABLE — the SIXTH column (after Date, AWB, Tracking ID, Pickup Address, Delivery Address).
+    The dims value typically looks like: "80.0*60.0*62.0cm, 125.0kg" (dimensions × weight).
+    CRITICAL: This field MUST be extracted if ANY text is present in the Dims column — do NOT skip it. Even if the text looks unusual or partially corrupted by OCR, extract it completely.
+    The dims value may be split across multiple OCR lines due to wrapping — collect ALL parts of it.
+    Stop when you reach the ITEMS TABLE header row (the line containing "Item" and "Description" and "Quantity").
+    Join all rows from the Dims column with "; ".
+    e.g. "80.0*60.0*62.0cm, 125.0kg" or "120.0*80.0*80.0cm, 112.0kg; 120.0*80.0*80.0cm, 112.0kg; 120.0*80.0*80.0cm, 111.0kg".
+    If the Dims column is genuinely blank with no text whatsoever, set to "N/A".
+
+17. weight_value
+    The TOTAL shipment weight — sum of all weight values from ALL rows in the Dims column.
+    Steps:
+      1. Split dims by "; " to get individual rows.
+      2. From each row, extract the last numeric value (the weight number before the unit).
+      3. Sum all extracted weight numbers.
+      4. Return the total as a numeric string — e.g. "285.0" or "98.0".
+    If not found, set to "N/A".
+
+18. weight_unit
+    The unit of the shipment weight from the Dims column — e.g. "lbs" or "kg".
+    If not found, set to "N/A".
+
+19. line_items
+    All charge lines from the ITEMS TABLE.
+    The table header row contains: "Item", "Description", "Quantity", "Amount".
+    For EACH data row that appears AFTER the header and BEFORE the line containing "Subtotal", extract:
+      - item: first column (e.g. "Pickup")
+      - description: second column (e.g. "SPECIAL RATE")
+      - quantity: third column (e.g. "0.0")
+      - amount: fourth column — numeric value only, strip the $ sign (e.g. "2843.00")
+    Stop extracting as soon as you reach the line containing "Subtotal".
+    Return as a JSON array. If no rows, return [].
+
+20. invoice_total
+    Found in the totals block, on the line labeled "Total" (NOT "Subtotal", NOT "Amount Due").
+    In the OCR this looks like: "                    Total            $2,843.00"
+    Extract numeric value only — strip the $ sign and commas (e.g. "2843.00").
+
+21. invoice_currency
+    Determined from the currency symbol on the total or amount lines.
+    In the OCR this looks like: "$2,843.00" — the $ symbol indicates USD.
+    Return the 3-letter code — e.g. "USD".
+
+=== RULES ===
+- If a field is not found, set its value to "N/A" (or [] for line_items).
+- NEVER copy a value from one field into another to fill a blank — if the source cell is empty, the field is "N/A".
+- NEVER invent, guess, or assume a value. Extract ONLY what is literally visible in the OCR text.
+- For every field: extract the COMPLETE content — do not stop early or truncate.
+- weight_value is the only calculated field — you must sum numeric weights from dims rows.
+- Do not provide any explanation, only the JSON.
+- Return a single JSON array with one object.
+
+[
+  {{
+    "supplier": ...,
+    "invoice_no": ...,
+    "invoice_date": ...,
+    "bill_to": ...,
+    "due_date": ...,
+    "order_number": ...,
+    "order_references": ...,
+    "ship_date": ...,
+    "delivery_date": ...,
+    "delivery_time": ...,
+    "delivery_timezone": ...,
+    "awb": ...,
+    "tracking_id": ...,
+    "shipper": ...,
+    "consignee": ...,
+    "dims": ...,
+    "weight_value": ...,
+    "weight_unit": ...,
+    "line_items": [...],
+    "invoice_total": ...,
+    "invoice_currency": ...
+  }}
+]
+
+Document text:
+"""
+{extracted_text}
+"""

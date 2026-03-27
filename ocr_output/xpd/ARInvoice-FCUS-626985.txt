@@ -1,0 +1,64 @@
+  1: === OCR: Full Page 1 (Real Positions) ===
+  2: ©
+  3:                                                                                               Europartners    Mexico                                      COMPROBANTE    DIGITAL POR INTERNET
+  4:                   X[O
+  5:                                                                                                  RFC EME020824U4A                                                      FACTURA
+  6:                                                                                                TELS: (52)(81) 82202630                     Serie y folio interno               FCUS-626985
+  7:                                                                                                   Av. Revolucién 649
+  8:                                            g  lobal                                        Colonia Jardin Espafiol Monterrey                Folio fiscal                      BD4C4B09-FC8C-11F0-9873-73042EDFA90C
+  9:                         www.xpdglobal.com                                                   Nuevo Leon Mexico, C.P. 64820                  No. de Serie del Cert. del SAT        00001000000700047508
+ 10:                                                                                                                                            Fecha y hora de emisén            2026-01-28T15:03:05
+ 11:            Régimen Fiscal: 601                                                                                       @oot SASY,                 Fecha y hora certificacion        2026-01-28T15:03:51
+ 12:                                                                                      an TAS,              SS      \ols) N73                   No. Certificacado               00001000000508234030
+ 13:            Lugar de expedicion: Monterrey, Nuevo Ledn, CP 64820                                                      TAIT       A\              Tipo de comprobante:             I-Ingreso
+ 14:            Embarcador/Shipper:                                                                                  Fecha/Date: 1/28/2026
+ 15:                                                                                                                                                                                 UT
+ 16:            LEMTECH  PRECISION  MATERIAL  CHINA CO.. LT No.486. West Yangguang                                 REF: XPD/MX/ACT/26010008418
+ 17:            Road. Zhangpu TowN  Kunshan Jiangsu 215321 China XEXX010101000
+ 18:                                                                                                                 Facturado a/Invoice:
+ 19:                                                                                                               CUS13602         AUTOLIV    ASP  INC
+ 20:                                                                                                                RFC - XEXX010101000
+ 21:            Consianatario/Consianee:                                                                            Airport Road 3350
+ 22:                                                                                                                Ogden CP 64820
+ 23:            AUTOLIV  AOA  1000 West 3300 South Ogden Utah 84401 United States                                 Utah United States
+ 24:                                                                                                                Uso CFDI: S01                                               Regimen fiscal:616
+ 25:            Linea/Line:                                     Buque:/VSL/Vuelo/FLT:
+ 26:                                                                                                               ETD/ETA:                                                 Flete/freiaht Terms:
+ 27:            CHINA AIRLINES                                   CK223
+ 28:                                                                                                              1/26/2026                  1/26/2026                       DAP
+ 29:            Fact. Comercial:/Comercial INV:                     Origen:/Origin
+ 30:            ASP // PTN: 20CD-JG70-1GQYV   //               PVG - Shanghai Pudong International               B/L:MAWB:                                         FBL:/HAW:
+ 31:            Hugo Acosta // LEMTECH.  China -               Airport. China                                           112-02308740                                    SCNAE262237
+ 32:          Corresponsal:/Agent:
+ 33:                                                              Fact.Corr:/Freight Invoice:                          Aduana/Custom House:                               Destino:/Destination:
+ 34:            XPD GLOBAL  (SHANGHAI)  LIMITED
+ 35:                                                                                                                                                                    LAX - Los Angeles International Airport
+ 36:           Marcas y Nos:/Marks
+ 37:                                                             Bultos:/PCS                                       Flete Terr:/Inland Freight:                          Condiciones de Pago:/terms of payment:
+ 38:           ASP // PTN: 20CD-JG70-1GQYV // Hugo Acosta //
+ 39:           LEMTECH. China - AOA                                 2                                                                                                           30 Dias
+ 40:                                                          Contenido:/Content                                                                                   Peso Bruto:/Gross weigth       Volumen:/Volume
+ 41:                                                            general                                                                        Unidad de Medida        356.446 KG             2.138.675 CMB
+ 42:                                                                                                                          Impuestos
+ 43:            81141601                         Destination Charges                                                         0        0.00            E48                        USD                 1,394.00
+ 44:            81141601                         Air Freight                                                                 0        0.00            E48                        USD                 1,775.00
+ 45:            81141601                         Origin charges                                                              0        0.00            E48                        USD                  611.00
+ 46:            (THREE THOUSAND  SEVEN HUNDRED EIGHTY WITH 00 /100 USD)
+ 47:            Metodo de pago: PPD - Pago en parcialidades o diferido
+ 48:            Medio de pago: 99 - Por Definir                                                                                                        PARCIAL    :                                          3,780.00
+ 49:            Cuenta de Pago: NO DEFINIDO                                                                                                          I.V.A. 0%  :                                                0.00
+ 50:            Tipo de cambio: 17.283000
+ 51:                                                                                                                                                 TOTAL    :                                           3,780.00
+ 52:            Dias de credito: 30 Dias
+ 53:            Tipo relacion:
+ 54:                CFDI Relacionado:                                                  Tipo Relacion:
+ 55:                      OBSERVACIONES:/REMARKS:
+ 56:                      POR ESTE PAGARE  ME(NOS) OBLIGO(AMOS)  A PAGAR  INCONDICIONALMENTE   EL DIA EN LA CIUDAD DE MONTERREY,  N.L. A LA ORDEN  DE
+ 57:                      EUROPARTNERS   MEXICO, S.A. DE C.V. LA CANTIDAD  DE (THREE THOUSAND   SEVEN  HUNDRED   EIGHTY WITH 00 /100 USD) QUE  HE(MOS)
+ 58:                      RECIBIDO A MI (NUESTRA)ENTERA  SATISFACCION.
+ 59:                      LA FALTA DE PAGO A SU VENCIMIENTO CAUSARA  EL INTERES DE 3% MENSUAL.
+ 60:                     LA MERCANCIA  VIAJA POR CUENTA Y RIESGO DEL EMBARCADOR
+ 61:                                                                                                       Page  1 of 2
+ 62: === End of Page 1 ===
+
+Total lines: 62

@@ -1,0 +1,45 @@
+  1: === OCR: Full Page 1 (Real Positions) ===
+  2: Invoice
+  3:             AIRSPACE
+  4:                                                                                                                                                      #3165491
+  5:                                                                                                                                                              11/6/2025
+  6:             Bill To                                               Remit  Payment    To                                TOTAL
+  7:             Autoliv    Domestic                                  Airspace   Technologies,     Inc
+  8:                      -
+  9:             7 World   Trade   Center                             PO  Box  737032
+ 10:             Klarabersviadukten      70                          Dallas, TX 75373-7032     USA
+ 11:             Stockholm    Stockholm    County   11120          (858) 263-1953
+ 12:             Sweden                                               remittance@airspace.com                                                     1               °
+ 13:                                                                  Airspace   ACH   Information:
+ 14:                                                                   Bank   Name:   JPMorgan    Chase
+ 15:                                                                  ABA   Number:    322271627                                                    Due   Date:  2/4/2026
+ 16:                                                                  Account:   Number:    866702282
+ 17:                                                                  Account:   Airspace   Technologies,     Inc.
+ 18:             Terms                  Due Date              Order Number          Order References      Commodity              Order Source                  PO#
+ 19:             Net 90                2/4/2026              Sales Order           103453646             Other  -              Ops  quote
+ 20:                                                           #3165491              TBC                   Automotive   Parts    builder
+ 21:             Date                  AWB                    Tracking ID           Pickup Address        Delivery Address      Dims                  POD
+ 22:             11/6/2025                                    ATK2ET2M9]             NOVAPAX               AMX,  Av. de Los      122.0*122.0*122.       Delivered  at Nov
+ 23:                                                                                  Kunststofftechnik     Sauces  No. 9,        Ocm, 95.0kg;          06 25 12 15 CST
+ 24:                                                                                  Steiner GmbH   &     Lerma,  52000         122.0*122.0*122.      and signed  by
+ 25:                                                                                  Co. KG,                                      Ocm, 95.0kg;          Cancelled  order
+ 26:                                                                                  Schatzelbergstra                              122.0*122.0*122.      in Cancelled
+ 27:                                                                                  Re 4-10, Berlin,                             Ocm, 95.0kg;          order
+ 28:                                                                                  12099                                        122.0*122.0*122.
+ 29:                                                                                                                                Ocm, 95.0kg;
+ 30:                                                                                                                                122.0*122.0*122.
+ 31:                                                                                                                                Ocm, 95.0kg;
+ 32:                                                                                                                                122.0*122.0*122.
+ 33:                                                                                                                                Ocm, 95.0kg;
+ 34:                                                                                                                                122.0*122.0*122.
+ 35:                                                                                                                                Ocm, 95.0kg
+ 36:             Item                                   Description                           Quantity                                                              Amount
+ 37:             Pickup                                SPECIAL  RATE                         0.0                                                                  $1,100.00
+ 38:                                                                                                                                    Subtotal                  $1,100.00
+ 39:                                                                                                                               Tax  Total  (%)
+ 40:                                                                                                                                         Total                $1,100.00
+ 41:                                                                                                                               Amount     Due                $1,100.00
+ 42:                                                                                                                                                                 1 of 1
+ 43: === End of Page 1 ===
+
+Total lines: 43

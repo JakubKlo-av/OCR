@@ -1,0 +1,63 @@
+  1: === OCR: Full Page 1 (Real Positions) ===
+  2: ©
+  3:                                                                                               Europartners    Mexico                                      COMPROBANTE    DIGITAL POR INTERNET
+  4:                   X[O
+  5:                                                                                                  RFC EME020824U4A                                                      FACTURA
+  6:                                                                                                TELS: (52)(81) 82202630                     Serie y folio interno               FCUS-627285
+  7:                                                                                                   Av. Revoluci6n 649
+  8:                                            g  lobal                                        Colonia Jardin Espafiol Monterrey                Folio fiscal                      97D94375-FD59-11F0-8D7C-1B30F8056738
+  9:                         www.xpdglobal.com                                                   Nuevo Leon Mexico, C.P. 64820                  No. de Serie del Cert. del SAT        00001000000700047508
+ 10:                                                                                                                                            Fecha y hora de emisén            2026-01-29T15:29:29
+ 11:            Régimen Fiscal: 601                                                                                          NA oo                  Fecha y hora certificacion        2026-01-29T15:29:49
+ 12:                                                                                                                       oO
+ 13:                                                                                      AK TAS,                       N17                   No. Certificacado               00001000000508234030
+ 14:            Lugar de expedicion: Monterrey, Nuevo Ledn, CP 64820                                                      TAIT       A\              Tipo de comprobante:             I-Ingreso
+ 15:            Embarcador/Shipper:                                                                                  Fecha/Date: 1/29/2026
+ 16:                                                                                                                                                                                 UT
+ 17:            MQL Av. de las Misiones 14-D. Parque Industrial Bernardo Quintana El marques                           REF: XPD/MX/RE/26010005173
+ 18:            Querétaro 76246 Mexico
+ 19:                                                                                                                 Facturado a/Invoice:
+ 20:                                                                                                               CUS13602         AUTOLIV    ASP  INC
+ 21:                                                                                                                RFC - XEXX010101000
+ 22:            Consianatario/Consianee:                                                                            Airport Road 3350
+ 23:                                                                                                                Ogden CP 64820
+ 24:            AUTOLIV  AOA  1000 West 3300 South Ogden Utah 84401 United States                                 Utah United States
+ 25:                                                                                                                Uso CFDI: S01                                               Regimen fiscal:616
+ 26:            Linea/Line:                                     Buque:/VSL/Vuelo/FLT:
+ 27:                                                                                                               ETD/ETA:                                                 Flete/freiaht Terms:
+ 28:                                                                                                              1/29/2026                  1/29/2026                       EXW
+ 29:            Fact. Comercial:/Comercial INV:                     Origen:/Origin
+ 30:            TMS // load 881011 // Melissa                  MQL. Mexico                                        B/L:MAWB:                                         FBL:/HAW:
+ 31:            Sanchez // MQL - AOA
+ 32:          Corresponsal:/Agent:
+ 33:                                                              Fact.Corr:/Freight Invoice:                          Aduana/Custom House:                               Destino:/Destination:
+ 34:                                                                                                                                                                    AUTOLIV  UTAH. United States
+ 35:           Marcas y Nos:/Marks
+ 36:                                                             Bultos:/PCS                                       Flete Terr:/Inland Freight:                          Condiciones de Pago:/terms of payment:
+ 37:           TMS // load 881011 // Melissa Sanchez // MQL -
+ 38:           AOA                                               52                                                                                                          30 Dias
+ 39:                                                          Contenido:/Content                                                                                   Peso Bruto:/Gross weigth       Volumen:/Volume
+ 40:                                                            general                                                                        Unidad de Medida        353.802.28 KG          90.311.862.731
+ 41:                                                                                                                          Impuestos
+ 42:            81141601                         SERVICIO  LOGISTICO  TERRESTRE                                             0        0.00            E48                        USD                6,600.00
+ 43:            81141601                         ESTADIAS                                                                   0        0.00            E48                        USD                 1,100.00
+ 44:            (SEVEN THOUSAND SEVEN HUNDRED WITH 00 /100 USD)
+ 45:            Metodo de pago: PPD - Pago en parcialidades o diferido
+ 46:                                                                                                                                                 PARCIAL                                               7,700.00
+ 47:            Medio de pago: 99 - Por Definir
+ 48:            Cuenta de Pago: NO DEFINIDO                                                                                                          L.V.A. 0%                                                   0.00
+ 49:            Tipo de cambio: 17.235700
+ 50:                                                                                                                                                 TOTAL    :                                           7,700.00
+ 51:            Dias de credito: 30 Dias
+ 52:            Tipo relacion:
+ 53:                CFDI Relacionado:                                                  Tipo Relacion:
+ 54:                      OBSERVACIONES:/REMARKS:
+ 55:                      POR ESTE PAGARE  ME(NOS) OBLIGO(AMOS)  A PAGAR  INCONDICIONALMENTE   EL DIA EN LA CIUDAD DE MONTERREY,  N.L. A LA ORDEN  DE
+ 56:                      EUROPARTNERS   MEXICO, S.A. DE C.V. LA CANTIDAD  DE (SEVEN THOUSAND   SEVEN  HUNDRED  WITH 00 /100 USD) QUE  HE(MOS) RECIBIDO
+ 57:                      A MI (NUESTRA)ENTERA  SATISFACCION.
+ 58:                      LA FALTA DE PAGO A SU VENCIMIENTO CAUSARA  EL INTERES DE 3% MENSUAL.
+ 59:                     LA MERCANCIA VIAJA POR CUENTA Y RIESGO DEL EMBARCADOR.
+ 60:                                                                                                       Page  1 of 2
+ 61: === End of Page 1 ===
+
+Total lines: 61

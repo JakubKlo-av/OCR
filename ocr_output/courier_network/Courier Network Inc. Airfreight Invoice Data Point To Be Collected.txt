@@ -1,0 +1,57 @@
+  1: === OCR: Full Page 1 (Real Positions) ===
+  2: Courier         Network           Inc.                                                                                                                                                                CHRMAZ
+  3:                                                                                           A
+  4:    100   Biscayne      Blvd.   Suite   800   Miami,    FL  33132
+  5:   United    States
+  6:   Tel.:  718-656-7777                                                                                                                                                                               COURIER            NETWORK
+  7:   VAT    Number:      13-3354022                                                                              Of D i) = CGTAL BS                                               E-mail:    AccountsReceivable@cnwglobal.com URL:   www.cnwglobal.com
+  8:     To:                                                                                                                                                                       Invoice    Date:   11/30/25
+  9:     AUTOLIV       ASP    Inc.
+ 10:     Ogden,     Utah   84405    United    States
+ 11:     Customer       Number:      AUTOLIVAGS
+ 12:                                                                                       Tax     Invoice       US725039316                   Original
+ 13:                                                                                                                                          -
+ 14:     AWB   #:  11560543                                           SHIPPER:                                                                                                            PTN:  $92819
+ 15:     Pickup  Date: 25/11/2025                                     NITTO,  INC                                                                                                        QUSD: Nes  4090
+ 16:     DEPART RE       PORT: NEN IND                                        120 FORTUNE     DR                                                                                                 REQNA:   Hugo  Acosta
+ 17:     ARRIVE   PORT:  QRO
+ 18:                                                                   FRANKFORT      40601
+ 19:                                                                   KY,US
+ 20:     WEIGHT:    71.00  LBS
+ 21:     PIECES:   1                                                  CONSIGNEE:?
+ 22:                                                                                                                                                                                       PU  DST:  0 MI
+ 23:     VALUE:   USD  0.00                                          AUTOLIV    STEERING     WHEELS     MEXICO    S DE
+ 24:                                                                                                                                                                                       DEL  DST:  0 KM
+ 25:     SERVICE:   HC                                               CIRCUITO    EL MARQU%0S     NORTE   #25
+ 26:     Pod: 26/11/25  14:55:00
+ 27:     Signed:  STAMPED
+ 28:                                                                   EL MARQUES     QUERETARO       76246
+ 29:                                                                   QA,MX
+ 30:      Service      Description                                    Amount                    Currency                     Exchange         Rate                         Amount        Inv   Currency
+ 31:      Hand    Carry                                              4,090.00                  USD                           1.00                                           4,090.00
+ 32:      TOTAL                                                                                                                                                                                                                   4,090.00
+ 33:                                                                                                                                                 Total   Before    Tax                                                          4,090.00
+ 34:                                                                                                                                                 Custom      Tax                                                                       0.00
+ 35:      Pay   by:  12/31/25
+ 36:                                                                                                                                                 Total   Taxes                                                                         0.00
+ 37:      Payment      Date:   12/31/25
+ 38:                                                                                                                                                 Total   Amount      Due                                                 USD    4,090.00)
+ 39:      TMS    Number:     1166922
+ 40:      Payment   terms  for Duty & Vat are within 3 Days
+ 41:      Payments   are to be transferred  directly to:
+ 42:      Account   name:  Courier  Network   Inc.
+ 43:      Bank:  Citibank  N.A.
+ 44:      USD  Account   number:   31466911
+ 45:      ABA   Number   031100209
+ 46:      Swift Code:  CITIUS33
+ 47:      Bank:  Citibank  Europe   Plc Ireland
+ 48:      EUR  Account   number:   44114488
+ 49:      IBAN:IE93CITI990051     44114488
+ 50:      Swift Code:CITIIE2X
+ 51:      Tax  ID 13-3354022
+ 52:      checks    should    be  mailed   to the  following    address:
+ 53:      100  Biscayne     Blvd.  Suite  800   Miami,    FL  33132
+ 54:      Please  Email a copy of the bank transfer receipt to AccountsReceivable@cnwglobal.com
+ 55: === End of Page 1 ===
+
+Total lines: 55

@@ -1,0 +1,38 @@
+  1: === OCR: Full Page 1 (Real Positions) ===
+  2: 2602100643                                        INVOICE                                                             —=EASVFLYERS
+  3:             Supplier                                                                                                          Customer
+  4:             Easy       Flyers        USA       Logistics,           Inc                                                      Autoliv         Mexico          S.A.     de    C.V
+  5:             1110      Brickell      Avenue         Suite     700                                                           Av.    de    Los    Sauces        No.    9
+  6:             33131        Miami       FL                                                                                      Parque        Industrial        Lerma
+  7:             US   - United       States       of  America                                                                   52000        Lerma
+  8:             TAX     ID               83-2967312                                                                             Mexico
+  9:             E-mail                    administration@easyflyers.com                                                           ID                   AME-960412-A92
+ 10:             Phone                     1-877-957-0143                                                                         TAX     ID           AME960412A92
+ 11:             Date                                 Taxable         date                 Due     date                                            Total       due          4,106.00           USD
+ 12:             01/29/2026                           01/29/2026                           02/28/2026                                                   Subtotal            4,106.00          USD
+ 13:              Description/Price             breakdown                                                                           VAT     %                           Base                           TAX                         Total
+ 14:              EXW     CHARGES                                                                                                  0.00     %              488.00       USD                  0.00    USD              488.00       USD
+ 15:              AIRFREIGHT                                                                                                         0.00     %           2,743.00        USD                  0.00    USD           2,743.00        USD
+ 16:              DESTINATION             CHARGES                                                                                   0.00     %               875.00       USD                  0.00    USD              875.00       USD
+ 17:                                                                                                                                                    4,106.00          USD                 0.00     USD         4,106.00          USD
+ 18:             From:      Autoliv       Cankor        Otomotiv          Emn.      Sis.   San.     ve   Tic.   A.$            Bank       details
+ 19:            TR
+ 20:                                                                                                                                     Payment          method         Bank      transfer
+ 21:            To:    AUTOLIV          Lerma       - MX
+ 22:             Number          of  pieces:       1                                                                                              Bank       name      JPMorgan           Chase       Bank      N.A
+ 23:             Gross      weight:        392.00        KG                                                                                   Bank      address
+ 24:             Shipment           number:          US2601840             /PTN      20G2-I9T7-1GQYV
+ 25:                                                                                                                                           Bank      account         367832067
+ 26:             MAWB:         020-17587765
+ 27:                                                                                                                                                            IBAN
+ 28:             HAWB:        AY11305
+ 29:                                                                                                                                                  BIC/SWIFT           CHASUS33
+ 30:                                                                                                                                       Routing        number         021000021
+ 31:                                                                                                                                          EASYFLYERS                         USALOGISTICS
+ 32:                                                                                                                                                                                                                       ING.
+ 33:                                                                                                                                             i110           BRICKELL                  AVE,
+ 34:                                                                                                                                                                                                   STE.        700,
+ 35:                                                                                                                                                                MIAMI,           FL     33131,
+ 36: === End of Page 1 ===
+
+Total lines: 36

@@ -1,0 +1,57 @@
+  1: === OCR: Full Page 1 (Real Positions) ===
+  2: Courier         Network           Inc.                                                                                                                                                                CHRMAZ
+  3:    100   Biscayne      Blvd.   Suite   800   Miami,    FL  33132
+  4:   United    States
+  5:   Tel.:  718-656-7777                                                                                                                                                                               COURIER            NETWORK
+  6:   VAT    Number:      13-3354022                                                                                                                                                                      URL:   www.cnwglobal.com
+  7:                                                                                                                n by D Ui                                                       E-mail:    AccountsReceivable@cnwglobal.com
+  8:     To:                                                                                                                                                                       Invoice    Date:   10/20/25
+  9:     AUTOLIV       ABU
+ 10:     co  IMPEX     SN   1355   NORTH      CENTRAL        AVENUE
+ 11:     BROWNSVILLE,            Texas    78521    United    States
+ 12:     Customer       Number:      AUTOLIVMATA
+ 13:                                                                                          Tax     Invoice       US625053359                   Copy
+ 14:                                                                                                                                            -
+ 15:     AWB   #: 11527343                                                          SHIPPER:                                                                                         PTN:  91567
+ 16:     Pickup  Date: 08/10/2025                                                  EMPIRE                                                                                          QUSD:   1350
+ 17:                                                                                901 LOGISTICS    CENTER    CT                                                                 REQNA:    Sirena Tirado
+ 18:                                                                                EL PASO   79927
+ 19:                                                                                TX,US
+ 20:     WEIGHT:    284.00  KGS
+ 21:     PIECES:   1                                                               CONSIGNEE:
+ 22:                                                                                                                                                                                 PU  DST:  14 MI
+ 23:     VALUE:   USD  0.00                                                        IMPEX   FORWARDING       AGENCY     INC.
+ 24:                                                                                                                                                                                 DEL  DST:  6 MI
+ 25:     SERVICE:    SG                                                             1355  N. CENTRAL    AVE
+ 26:     Pod: 09/10/25  11:31:00
+ 27:     Signed: RON  CROWDER      JR.
+ 28:                                                                                BROWNSVILLE       78521
+ 29:                                                                                TX,US
+ 30:      Service      Description                                    Amount                    Currency                     Exchange         Rate                         Amount        Inv   Currency
+ 31:      Base    Rate                                                1,350.00                  USD                           1.00                                           1,350.00
+ 32:      TOTAL                                                                                                                                                                                                                   1,350.00
+ 33:                                                                                                                                                 Total   Before    Tax                                                          1,350.00
+ 34:                                                                                                                                                 Custom      Tax                                                                       0.00
+ 35:      Pay   by:  11/30/25
+ 36:                                                                                                                                                 Total   Taxes                                                                         0.00
+ 37:      Payment     Date:   11/30/25
+ 38:                                                                                                                                                 Total   Amount      Due                                                 USD    1,350.00)
+ 39:      TMS    Number:     1141010
+ 40:      Payment   terms  for Duty & Vat are within 3 Days
+ 41:      Payments   are to be transferred  directly to:
+ 42:      Account   name:  Courier  Network   Inc.
+ 43:      Bank:  Citibank  N.A.
+ 44:      USD  Account   number:   31466911
+ 45:      ABA   Number   031100209
+ 46:      Swift Code:  CITIUS33
+ 47:      Bank:  Citibank  Europe   Plc Ireland
+ 48:      EUR  Account   number:   44114488
+ 49:      IBAN:IE93CITI990051     44114488
+ 50:      Swift Code:CITIIE2X
+ 51:      Tax  ID 13-3354022
+ 52:      checks    should    be  mailed   to the  following    address:
+ 53:      100  Biscayne     Blvd.  Suite  800   Miami,    FL  33132
+ 54:      Please  Email a copy of the bank transfer receipt to AccountsReceivable@cnwglobal.com
+ 55: === End of Page 1 ===
+
+Total lines: 55

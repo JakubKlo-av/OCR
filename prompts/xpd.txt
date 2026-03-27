@@ -1,0 +1,177 @@
+Return only the JSON.
+
+The following is an OCR extract of an XPD Global / Europartners Mexico invoice. The document has TWO pages separated by markers:
+  === OCR: Full Page 1 (Real Positions) ===  ... === End of Page 1 ===
+  === OCR: Full Page 2 (Real Positions) ===  ... === End of Page 2 ===
+
+Page 1 and Page 2 contain the same invoice content. Extract all fields from Page 1. Use Page 2 only if a field cannot be found on Page 1.
+
+Your task is to extract the following fields with ABSOLUTE PRECISION.
+Each field MUST be extracted exactly as it appears in the OCR text — do not infer, calculate, or paraphrase.
+
+1. vendor
+   Always return exactly: "Europartners Mexico".
+
+2. invoice_number
+   SOURCE: Page 1 only.
+   Found in the upper-right area of Page 1, on the row containing the label "Serie y folio interno".
+   It is an alphanumeric code starting with "FCUS-" followed by digits — e.g. "FCUS-620207".
+   IMPORTANT: Extract the COMPLETE value including ALL digits. Do NOT truncate.
+
+3. bill_to
+   Always set bill_to to 'Autoliv ASP, Inc.     3350 Airport Road     Ogden, UT 84405   USA'. Do not extract from the document.
+
+4. invoice_date
+   SOURCE: Page 1 only.
+   Found in the RIGHT area of Page 1, on the line containing the label "Fecha/Date:".
+   In the OCR this looks like: "Fecha/Date: 1/6/2026"
+   Extract the date value to the RIGHT of "Fecha/Date:" (e.g. "1/6/2026").
+   Convert to DD/MM/YYYY format.
+
+5. ship_date
+   SOURCE: Page 1 only.
+   Found on the line containing the label "ETD/ETA:".
+   In the OCR this looks like: "11/19/2025                 11/20/2025"
+   Two dates appear on the same line — the FIRST date is the ETD (ship date).
+   Convert to DD/MM/YYYY format.
+
+6. shipper
+   SOURCE: Page 1 only.
+   The label "Embarcador/Shipper:" appears on the LEFT side of Page 1.
+   Collect ALL lines BELOW that label 
+   Stop when you reach the label "Consignatario/Consignee:" or "Consianatario/Consianee:".
+   Combine all collected lines into one string, parts separated by ", "
+   e.g. "TELAMON CORPORATION Circuito Plan de Pardillo #3 Parque Industrial, Fresnillo Fresnillo Zacatecas 99056 Mexico".
+
+7. consignee
+   SOURCE: Page 1 only.
+   The label "Consignatario/Consignee:" (OCR may render it as "Consianatario/Consianee:") appears on the LEFT side of Page 1, below the shipper block.
+   Collect ALL lines BELOW 
+   Stop when you reach the label "Linea/Line:".
+   Combine all collected lines into one string, parts separated by ", "
+   e.g. "AUTOLIV AOA 1000 West 3300 South Ogden Utah 84401 United States".
+
+8. tms_number, ptn_number, autoliv_person_concerned
+   SOURCE: Page 1 only.
+   Found under the label "Fact. Comercial:/Comercial INV:" on the LEFT side of Page 1.
+   Collect ALL lines under that label on the LEFT side until you reach the label "Corresponsal:/Agent:".
+   In the OCR these lines look like:
+     "AOA // PTN: $92640 // Hugo"
+     "Acosta // Telamon. Zacatecas -"
+   Join all collected lines into one string separated by " ", then split by " // " to get fragments.
+
+   IMPORTANT — $ vs S correction: OCR misreads 'S' as '$'. If a PTN code starts with '$' (e.g. "$92640"), replace the leading '$' with 'S' → "S92640".
+
+   The collected text will match ONE of two patterns:
+
+   PATTERN A — TMS reference (when any fragment equals "TMS" or starts with "tms"):
+     Raw format: "TMS // load <number> // <First Last> // <company>"
+     → tms_number               = "load <number>"
+     → ptn_number               = "N/A"
+     → autoliv_person_concerned = "<First Last>"
+
+   PATTERN B — PTN reference (when any fragment starts with "PTN:"):
+     Raw format: "<code> // PTN: <ptn-code> // <First Last> // <company>"
+     The PTN code may be split across two OCR lines — join them before parsing.
+     → tms_number               = "N/A"
+     → ptn_number               = the value after "PTN:" with $ replaced by S (e.g. "S92640")
+     → autoliv_person_concerned = the TWO-WORD name immediately after the PTN code (e.g. "Hugo Acosta")
+
+   RULES:
+   - The person's name is always two words (first name + last name) immediately after the TMS or PTN identifier.
+   - Do NOT include the company name or location.
+   - If neither pattern is found → set all three fields to "N/A".
+
+9. weight_value
+   SOURCE: Page 1 only.
+   Found on the line containing "Peso Bruto:/Gross weigth".
+   Extract ONLY the numeric value before the unit (e.g. "997.9").
+
+10. weight_unit
+    SOURCE: Page 1 only.
+    Found on the same line as weight_value.
+    Extract only the unit directly after the numeric weight value (e.g. "KG").
+
+11. currency
+    SOURCE: Page 1 only.
+    Found in the first line item row below the "Impuestos" header area.
+    In the OCR this looks like: "81141601    Hand Carry Service    0    0.00    E48    USD    3,598.00"
+    Extract the 3-letter currency code from that row (e.g. "USD").
+
+12. line_items
+    SOURCE: Page 1 only.
+    Located BELOW the line containing "Impuestos" (which is the column header area).
+    Each data row begins with a numeric code and looks like:
+      "81141601    Hand Carry Service    0    0.00    E48    USD    3,598.00"
+    The columns are (left to right): code | description | quantity | unit_price | tax_type | currency | amount.
+    CRITICAL: Extract EVERY data row — each gets its own entry in the JSON array.
+    Stop when you reach the line starting with "(" followed by the amount in words (e.g. "(THREE THOUSAND...").
+    For each row extract:
+      - code: the numeric code (e.g. "81141601")
+      - description: the charge name (e.g. "Hand Carry Service")
+      - quantity: numeric (e.g. "0")
+      - unit_price: numeric, no currency symbol (e.g. "0.00")
+      - tax_type: (e.g. "E48")
+      - currency: 3-letter code (e.g. "USD")
+      - amount: numeric only, no currency symbol or commas (e.g. "3598.00")
+    Return as a JSON array. If no line items, return [].
+
+13. amount
+    SOURCE: Page 1 only.
+    Found on the line containing "TOTAL    :" on the RIGHT side of Page 1.
+    In the OCR this looks like: "TOTAL    :                                           3,598.00"
+    Extract the numeric value to the RIGHT of "TOTAL :" — remove commas (e.g. "3598.00").
+    Do NOT extract the PARCIAL line or I.V.A. line — only the TOTAL line.
+
+14. mawb
+    SOURCE: Page 1 only.
+    Found in the RIGHT area of Page 1, on the line containing "B/L:MAWB:".
+    In the OCR this looks like: "B/L:MAWB:                                         FBL:/HAW:"
+    and the value appears on the line immediately below, e.g. "N/A" or "020-01408691".
+    If the value is "N/A" or blank, set mawb to "N/A".
+
+15. hawb
+    SOURCE: Page 1 only.
+    Found in the FAR RIGHT area of Page 1, on the same line as "B/L:MAWB:" — the label is "FBL:/HAW:".
+    The value appears on the line immediately below that label.
+    e.g. "FRA-00009465". If blank or absent, set to "N/A".
+
+16. bultos
+    SOURCE: Page 1 only.
+    Found on the line containing the label "Bultos:/PCS".
+    In the OCR this looks like: "Bultos:/PCS" as column header, and the value appears on the data line below, typically in the center column.
+    Extract only the numeric value.
+
+=== RULES ===
+- If a field cannot be found, set its value to "N/A" (or [] for line_items).
+- Do NOT infer, estimate, or calculate — extract only what is literally present in the OCR.
+- Do NOT include any explanation, commentary, or markdown — return ONLY the raw JSON.
+- Return a single JSON array with exactly one object.
+
+[
+  {{
+    "vendor": ...,
+    "invoice_number": ...,
+    "bill_to": ...,
+    "invoice_date": ...,
+    "ship_date": ...,
+    "shipper": ...,
+    "consignee": ...,
+    "tms_number": ...,
+    "ptn_number": ...,
+    "autoliv_person_concerned": ...,
+    "weight_value": ...,
+    "weight_unit": ...,
+    "currency": ...,
+    "line_items": [...],
+    "amount": ...,
+    "mawb": ...,
+    "hawb": ...,
+    "bultos": ...
+  }}
+]
+
+Document text:
+"""
+{extracted_text}
+"""

@@ -1,0 +1,65 @@
+  1: === OCR: Full Page 1 (Real Positions) ===
+  2: ©
+  3:                                                                                               Europartners    Mexico                                      COMPROBANTE    DIGITAL POR INTERNET
+  4:                   X[O
+  5:                                                                                                  RFC EME020824U4A                                                      FACTURA
+  6:                                                                                                TELS: (52)(81) 82202630                     Serie y folio interno               FCUS-627506
+  7:                                                                                                   Av. Revolucién 649
+  8:                                            g  lobal                                        Colonia Jardin Espafiol Monterrey                Folio fiscal                      08D435E3-FE02-11F0-AQ0B-3740CD5D3962
+  9:                         www.xpdglobal.com                                                   Nuevo Leon Mexico, C.P. 64820                  No. de Serie del Cert. del SAT        00001000000700047508
+ 10:                                                                                                                                            Fecha y hora de emisén            2026-01-30T11:35:14
+ 11:            Régimen Fiscal: 601                                                                                       @oot SASY,                 Fecha y hora certificacion        2026-01-307T11:35:34
+ 12:                                                                                      an TAS,              SS      \ols) N73                   No. Certificacado               00001000000508234030
+ 13:            Lugar de expedicion: Monterrey, Nuevo Ledn, CP 64820                                                      TAIT       A\              Tipo de comprobante:             I-Ingreso
+ 14:            Embarcador/Shipper:                                                                                  Fecha/Date: 1/30/2026
+ 15:                                                                                                                                                                                 UT
+ 16:            SHANGHAI  ITW PLASTIC & METAL  CO. LTD. No. 201 Yuandian Rd..                                     REF: XPD/MX/ACT/26010008450
+ 17:            Xinzhuang Industriafi Park Minhang Shanghai 2011108 China
+ 18:                                                                                                                 Facturado a/Invoice:
+ 19:                                                                                                               CUS11335         AUTOLIV    ASP  INC
+ 20:                                                                                                                RFC - XEXX010101000
+ 21:            Consianatario/Consianee:                                                                            Airport Road 3350
+ 22:                                                                                                                Ogden CP 64820
+ 23:            AUTOLIV  AST DEPOT  / CASAS INT 9355 Airway Road. suite 4 San Diego                                Utah United States
+ 24:            California 92154 United States
+ 25:                                                                                                                Uso CFDI: S01                                               Regimen fiscal:616
+ 26:            Linea/Line:                                     Buque:/VSL/Vuelo/FLT:
+ 27:                                                                                                               ETD/ETA:                                                 Flete/freiaht Terms:
+ 28:            CHINA SOUTH                                      €2Z2511
+ 29:                                                                                                              1/25/2026                  1/25/2026                       DAP
+ 30:            Fact. Comercial:/Comercial INV:                     Origen:/Origin
+ 31:            ASP // PTN: 20FI-JD8R-1GQYV  //               PVG - Shanghai Pudong International               B/L:MAWB:                                         FBL:/HAW:
+ 32:            Sire Tirado // ITW. China - CASAS                Airport. China                                           784-41958335                                    AQF340972
+ 33:          Corresponsal:/Agent:
+ 34:                                                              Fact.Corr:/Freight Invoice:                          Aduana/Custom House:                               Destino:/Destination:
+ 35:            AOF CARGO  LOGISTICS  CO..LTD.
+ 36:                                                                                                                                                                    LAX - Los Angeles International Airport
+ 37:           Marcas y Nos:/Marks
+ 38:                                                             Bultos:/PCS                                       Flete Terr:/Inland Freight:                          Condiciones de Pago:/terms of payment:
+ 39:           ASP // PTN: 20FI-JD8R-1GQYV // Sire Tirado //
+ 40:           ITW. China - CASAS                                   7                                                                                                           30 Dias
+ 41:                                                          Contenido:/Content                                                                                   Peso Bruto:/Gross weigth       Volumen:/Volume
+ 42:                                                            general                                                                        Unidad de Medida        1.706.25 KG             10.237.500 CMB
+ 43:                                                                                                                          Impuestos
+ 44:            81141601                         Destination Charges                                                         0        0.00            E48                        USD                 1,350.00
+ 45:            81141601                         Origin charges                                                              0        0.00            E48                        USD                  438.00
+ 46:            81141601                         Air Freight                                                                 0        0.00            E48                        USD                9,502.00
+ 47:            (ELEVEN THOUSAND TWO HUNDRED NINETY WITH 00 /100 USD)
+ 48:            Metodo de pago: PPD - Pago en parcialidades o diferido
+ 49:            Medio de pago: 99 - Por Definir                                                                                                        PARCIAL    :                                         11,290.00
+ 50:            Cuenta de Pago: NO DEFINIDO                                                                                                          I.V.A. 0%  :                                                0.00
+ 51:            Tipo de cambio: 17.232200
+ 52:                                                                                                                                                 TOTAL    :                                         11,290.00
+ 53:            Dias de credito: 30 Dias
+ 54:            Tipo relacion:
+ 55:                CFDI Relacionado:                                                  Tipo Relacion:
+ 56:                      OBSERVACIONES:/REMARKS:
+ 57:                      POR ESTE PAGARE  ME(NOS) OBLIGO(AMOS)  A PAGAR  INCONDICIONALMENTE   EL DIA EN LA CIUDAD DE MONTERREY,  N.L. A LA ORDEN  DE
+ 58:                      EUROPARTNERS   MEXICO, S.A. DE C.V. LA CANTIDAD  DE (ELEVEN THOUSAND   TWO  HUNDRED   NINETY WITH 00 (100 USD) QUE  HE(MOS)
+ 59:                      RECIBIDO A MI (NUESTRA)ENTERA  SATISFACCION.
+ 60:                      LA FALTA DE PAGO A SU VENCIMIENTO CAUSARA  EL INTERES DE 3% MENSUAL.
+ 61:                     LA MERCANCIA  VIAJA POR CUENTA Y RIESGO DEL EMBARCADOR
+ 62:                                                                                                       Page  1 of 2
+ 63: === End of Page 1 ===
+
+Total lines: 63

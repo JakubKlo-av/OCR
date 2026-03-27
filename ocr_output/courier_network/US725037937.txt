@@ -1,0 +1,59 @@
+  1: === OCR: Full Page 1 (Real Positions) ===
+  2: Courier         Network           Inc.                                                                                                                                                                CHRMAZ
+  3:    100   Biscayne      Blvd.   Suite   800   Miami,    FL  33132
+  4:   United    States
+  5:   Tel.:  718-656-7777                                                                                                                                                                               COURIER            NETWORK
+  6:   VAT    Number:      13-3354022                                                                                                                                                                      URL:   www.cnwglobal.com
+  7:                                                                                                                                                                            E-mail:    AccountsReceivable@cnwglobal.com
+  8:                                                                                                                             LD
+  9:     To:                                                                                                                                                                       Invoice    Date:   10/31/25
+ 10:     AUTOLIV       ASP    Inc.
+ 11:     3350   Airport    Road
+ 12:     OGDEN,      Utah   84450    United    States
+ 13:     Customer       Number:      AUTOLIVCMX
+ 14:                                                                                          Tax     Invoice       US725037937                   Copy
+ 15:                                                                                                                                            -
+ 16:     AWB   #: 11463596                                                                      SHIPPER:                                                                         PTN:  Expeditado   TRO   07/01
+ 17:     Pickup  Date: 02/07/2025                                                              AUTOLIV    ROMANIA    TRO                                                       QUSD:   34018
+ 18:     DEPART    PORT:  VIE                                                                  UTOLIV   LUGOJ   STR.  TAPIE!  NR.61                                           REQNA:    Juan  Daniel Garcia
+ 19:     ARRIVE   PORT:   MEX
+ 20:                                                                                             LUGOJ   305500
+ 21:     DESCRIPTION:     CUSHION    SAC  AIRBAG                                              RO
+ 22:     WEIGHT:    3045.00  KGS
+ 23:     PIECES:   12                                                                          CONSIGNEE:
+ 24:                                                                                                                                                                              PU  DST:  0 MI
+ 25:     VALUE:   EUR  80561.43                                                                Autoliv Steering  Wheels   Mexico  S de
+ 26:                                                                                                                                                                              DEL  DST:  200  KM
+ 27:     SERVICE:   NFO                                                                        Avenida  El Tepeyac   1120-B
+ 28:     Pod: 07/07/25  07:13:00
+ 29:     Signed:  STAMP
+ 30:                                                                                             EL MARQUES     QUERETARO       76245
+ 31:                                                                                             QA,MX
+ 32:      Service      Description                                   Amount                       Currency                     Exchange         Rate                         Amount        Inv   Currency
+ 33:      Base    Rate                                               34,018.00                    USD                          1.00                                          34,018.00
+ 34:      TOTAL                                                                                                                                                                                                                 34,018.00
+ 35:                                                                                                                                                 Total   Before    Tax                                                        34,018.00
+ 36:                                                                                                                                                 Custom      Tax                                                                       0.00
+ 37:      Pay   by:  11/30/25
+ 38:                                                                                                                                                 Total   Taxes                                                                         0.00
+ 39:      Payment     Date:   11/30/25
+ 40:                                                                                                                                                 Total   Amount      Due                                               USD    34,018.00)
+ 41:      TMS    Number:     1154917
+ 42:      Payment   terms  for Duty & Vat are within 3 Days
+ 43:      Payments   are to be transferred  directly to:
+ 44:      Account   name:  Courier  Network   Inc.
+ 45:      Bank:  Citibank  N.A.
+ 46:      USD  Account   number:   31466911
+ 47:      ABA   Number   031100209
+ 48:      Swift Code:  CITIUS33
+ 49:      Bank:  Citibank  Europe   Plc Ireland
+ 50:      EUR  Account   number:   44114488
+ 51:      IBAN:IE93CITI990051     44114488
+ 52:      Swift Code:CITIIE2X
+ 53:      Tax  ID 13-3354022
+ 54:      checks    should    be  mailed   to the  following    address:
+ 55:      100  Biscayne     Blvd.  Suite  800   Miami,    FL  33132
+ 56:      Please  Email a copy of the bank transfer receipt to AccountsReceivable@cnwglobal.com
+ 57: === End of Page 1 ===
+
+Total lines: 57

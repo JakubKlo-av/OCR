@@ -1,0 +1,38 @@
+  1: === OCR: Full Page 1 (Real Positions) ===
+  2: Invoice
+  3:             AIRSPACE
+  4:                                                                                                                                                      #3003594
+  5:                                                                                                                                                                9/3/2025
+  6:             Bill To                                               Remit  Payment    To                                TOTAL
+  7:             Autoliv    Domestic                                  Airspace   Technologies,     Inc
+  8:                      -
+  9:             7 World   Trade   Center                             PO  Box  737032
+ 10:             Klarabersviadukten      70                          Dallas, TX 75373-7032     USA
+ 11:             Stockholm    Stockholm    County   11120          (858) 263-1953
+ 12:             Sweden                                               remittance@airspace.com                                                    1]               °
+ 13:                                                                  Airspace   ACH   Information:
+ 14:                                                                   Bank   Name:   JPMorgan    Chase
+ 15:                                                                  ABA   Number:    322271627                                                  Due   Date:  12/2/2025
+ 16:                                                                  Account:   Number:    866702282
+ 17:                                                                  Account:   Airspace   Technologies,     Inc.
+ 18:             Terms                  Due Date              Order Number          Order References      Commodity              Order Source                  PO#
+ 19:             Net 90                12/2/2025             Sales Order           PTN-947968            Other   Air bag       Order  builder
+ 20:                                                                                                                -
+ 21:                                                           #3003594                                      product  UN3268
+ 22:                                                                                                         Class 9
+ 23:             Date                  AWB                    Tracking ID           Pickup Address        Delivery Address      Dims                  POD
+ 24:             9/3/2025              00610679126           ATEPWZANTT            Autoliv Inc, 400      Weidmann    &         45.0*46.0*13.0in,      Delivered  at Sep
+ 25:                                                                                  South  Depot          Winz  GMBH,           98.0lbs               03 25 07 05 CEST
+ 26:                                                                                  Drive, Ogden,  UT,   Industriestr .5,                             and signed  by
+ 27:                                                                                  84404                 Tor 9 BIS 11,                                company   stamp
+ 28:                                                                                                         Eislingen, 73054                             in
+ 29:             Item                                   Description                           Quantity                                                              Amount
+ 30:             Pickup                                SPECIAL  RATE                         0.0                                                                  $2,086.00
+ 31:                                                                                                                                    Subtotal                  $2,086.00
+ 32:                                                                                                                               Tax  Total  (%)
+ 33:                                                                                                                                         Total                $2,086.00
+ 34:                                                                                                                               Amount     Due                $2,086.00
+ 35:                                                                                                                                                                 1 of 1
+ 36: === End of Page 1 ===
+
+Total lines: 36

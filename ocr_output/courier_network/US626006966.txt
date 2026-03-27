@@ -1,0 +1,59 @@
+  1: === OCR: Full Page 1 (Real Positions) ===
+  2: Courier         Network           Inc.                                                                                                                                                                CHRMAZ
+  3:    100   Biscayne      Blvd.   Suite   800   Miami,    FL  33132
+  4:   United    States
+  5:   Tel.:  718-656-7777                                                                                                                                                                               COURIER            NETWORK
+  6:   VAT    Number:      13-3354022                                                                                                                                                                      URL:   www.cnwglobal.com
+  7:                                                                                                                                                                            E-mail:    AccountsReceivable@cnwglobal.com
+  8:                                                                                                                             LD
+  9:     To:                                                                                                                                                                       Invoice    Date:   01/28/26
+ 10:     Autoliv    ASP    Inc
+ 11:     3350   Airport    Road
+ 12:     Ogden,     UT  84405    United    States
+ 13:     Customer       Number:      AUTOLIVTIJ
+ 14:                                                                                          Tax     Invoice       US626006966                   Copy
+ 15:                                                                                                                                            -
+ 16:     IAWB  #: 11597920                                                                                                                      SHIPPER:                                           PTN:  2DE4JL7Z1GQYT
+ 17:     Pickup  Date: 22/01/2026                                                                                                               EISSMANN     AUTOMOTIVE                           QUSD:   11618
+ 18:     DEPART    PORT:   BUD                                                                                                                  BOTTY,.N  J.NOS  U. 8/A                          REQNA:   Hugo  Acosta
+ 19:     ARRIVE   PORT:   SFO
+ 20:                                                                                                                                             NY,REGYHZA     00000
+ 21:     DESCRIPTION:     motor vehicle body parts accessories  industrial assembly                                                          HU
+ 22:     WEIGHT:    380.00  KGS
+ 23:     PIECES:   8                                                                                                                            CONSIGNEE:
+ 24:                                                                                                                                                                                                PU  DST:  0 MI
+ 25:     VALUE:   EUR  29816.83                                                                                                                AUTOLIV
+ 26:                                                                                                                                                                                                DEL  DST:  0 MI
+ 27:     SERVICE:    PEF                                                                                                                        1000  WEST   3300  SOUTH
+ 28:     Pod: 27/01/26  08:00:00
+ 29:     Signed:  JAMEL   BLUE
+ 30:                                                                                                                                             WILSON    84401
+ 31:                                                                                                                                             UT,US
+ 32:      Service      Description                                   Amount                       Currency                     Exchange         Rate                         Amount        Inv   Currency
+ 33:      Base    Rate                                               11,618.00                    USD                          1.00                                          11,618.00
+ 34:      TOTAL                                                                                                                                                                                                                 11,618.00
+ 35:                                                                                                                                                 Total   Before    Tax                                                         11,618.00
+ 36:                                                                                                                                                 Custom      Tax                                                                       0.00
+ 37:      Pay   by: 02/28/26
+ 38:                                                                                                                                                 Total   Taxes                                                                         0.00
+ 39:      Payment      Date:   02/28/26
+ 40:                                                                                                                                                 Total   Amount      Due                                                USD    11,618.00)
+ 41:      TMS    Number:     1199913
+ 42:      Payment   terms  for Duty & Vat are within 3 Days
+ 43:      Payments   are to be transferred  directly to:
+ 44:      Account   name:  Courier  Network   Inc.
+ 45:      Bank:  Citibank  N.A.
+ 46:      USD  Account   number:   31466911
+ 47:      ABA   Number   031100209
+ 48:      Swift Code:  CITIUS33
+ 49:      Bank:  Citibank  Europe   Plc Ireland
+ 50:      EUR  Account   number:   44114488
+ 51:      IBAN:IE93CITI990051     44114488
+ 52:      Swift Code:CITIIE2X
+ 53:      Tax  ID 13-3354022
+ 54:      checks    should    be  mailed   to the  following    address:
+ 55:      100  Biscayne     Blvd.  Suite  800   Miami,    FL  33132
+ 56:      Please  Email a copy of the bank transfer receipt to AccountsReceivable@cnwglobal.com
+ 57: === End of Page 1 ===
+
+Total lines: 57

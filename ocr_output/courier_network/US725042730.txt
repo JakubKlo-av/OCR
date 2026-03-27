@@ -1,0 +1,59 @@
+  1: === OCR: Full Page 1 (Real Positions) ===
+  2: Courier         Network           Inc.                                                                                                                                                                CRIA
+  3:    100   Biscayne      Blvd.   Suite   800   Miami,    FL  33132
+  4:   United    States
+  5:   Tel.:  718-656-7777                                                                                                                                                                               COURIER            NETWORK
+  6:   VAT    Number:      13-3354022                                                                              Of . i) =I CGTAL BS                                               E-mail:    AccountsReceivable@cnwglobal.com URL:   www.cnwglobal.com
+  7:     To:                                                                                                                                                                       Invoice    Date:   12/31/25
+  8:     Autoliv    ASP    Inc  Plant   AMX    84
+  9:     3350   Airport    Road
+ 10:     Ogden,     UT  84405    United    States
+ 11:     Customer       Number:      AUTOLIVLERMA
+ 12:                                                                                       Tax     Invoice       US725042730                   Original
+ 13:                                                                                                                                          -
+ 14:     AWB   #: 11556125                                                                                               SHIPPER:                                                                     MAWB:    871-54376431
+ 15:     Pickup  Date: 21/11/2025                                                                                       NANJING    ZHONGTUO      TECHNOLOGY                                         PTN:  92609
+ 16:     DEPART    PORT:   NKG                                                                                           1-2 5F BUILDING    1 ZONE   D                                              QUSD:   96470.21
+ 17:     ARRIVE   PORT:   NLU                                                                                                                                                                        REQNA:    Alejandra  Duran
+ 18:                                                                                                                      NANJING    211135
+ 19:     DESCRIPTION:      BFL  new  line SB19  -Auto Webbing   cut&Pin  sewing                                        CN
+ 20:     WEIGHT:    6192.00  KGS
+ 21:     PIECES:   4                                                                                                     CONSIGNEE:
+ 22:                                                                                                                                                                                                   PU  DST:  0 MI
+ 23:     VALUE:   USD  0.00                                                                                             AUTOLIV    MEXICO    SA  DE  CV/MANUEL     ALEX
+ 24:                                                                                                                                                                                                   DEL  DST:  0 KM
+ 25:     SERVICE:   NFO                                                                                                 PARQUE    INDUSTRIAL     LERMA
+ 26:     Pod:  10/12/25  12:00:00
+ 27:     Signed:  PABLO   LOPEZ
+ 28:                                                                                                                      LERMA    52000
+ 29:                                                                                                                      EM,MX
+ 30:      Service      Description                                        Amount                      Currency                    Exchange         Rate                       Amount        Inv   Currency
+ 31:      Base    Rate                                                    95,000.00                   USD                         1.00                                         95,000.00
+ 32:      Overnight       drive                                            665.76                      USD                         1.00                                         665.76
+ 33:     Truck    Ordered      Not   Used                               804.45                      USD                         1.00                                         804.45
+ 34:      TOTAL                                                                                                                                                                                                                 96,470.21
+ 35:                                                                                                                                                 Total   Before    Tax                                                        96,470.21
+ 36:                                                                                                                                                 Custom      Tax                                                                       0.00
+ 37:      Pay   by: 01/31/26
+ 38:                                                                                                                                                 Total   Taxes                                                                         0.00
+ 39:      Payment      Date:   01/31/26
+ 40:                                                                                                                                                 Total   Amount      Due                                               USD    96,470.21
+ 41:      TMS    Number:     1186601
+ 42:      Payment   terms  for Duty & Vat are within 3 Days
+ 43:      Payments   are to be transferred  directly to:
+ 44:      Account   name:  Courier  Network   Inc.
+ 45:      Bank:  Citibank  N.A.
+ 46:      USD  Account   number:   31466911
+ 47:      ABA   Number   031100209
+ 48:      Swift Code:  CITIUS33
+ 49:      Bank:  Citibank  Europe   Plc Ireland
+ 50:      EUR  Account   number:   44114488
+ 51:      IBAN:IE93CITI990051     44114488
+ 52:      Swift Code:CITIIE2X
+ 53:      Tax  ID 13-3354022
+ 54:      checks    should    be  mailed   to the  following    address:
+ 55:      100  Biscayne     Blvd.  Suite  800   Miami,    FL  33132
+ 56:      Please  Email a copy of the bank transfer receipt to AccountsReceivable@cnwglobal.com
+ 57: === End of Page 1 ===
+
+Total lines: 57

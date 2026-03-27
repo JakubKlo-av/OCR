@@ -1,0 +1,43 @@
+{
+  "supplier_name": "Airspace Technologies, Inc",
+  "input_directory": "C:\\Users\\jakub.klosowski\\OneDrive - Autoliv\\Desktop\\Invoices\\Airspace",
+  "prompt_file": "prompts/airspace.txt",
+  "max_pages": 1,
+  "ocr": {
+    "chars_per_pixel": 14,
+    "tesseract_psm": 4,
+    "tesseract_oem": 1,
+    "dpi": 300
+  },
+  "preprocess": {
+    "contrast": 1.2,
+    "sharpness": 1.2,
+    "scale": null,
+    "threshold_method": "otsu",
+    "threshold_block": null,
+    "threshold_c": null,
+    "deskew": false
+  },
+  "field_map": {
+    "invoice_id":   "invoice_no",
+    "supplier":     "supplier",
+    "amount":       "invoice_total",
+    "currency":     "invoice_currency",
+    "ship_from":    "shipper",
+    "ship_to":      "consignee",
+    "invoice_date": "invoice_date",
+    "due_date":     "due_date",
+    "ship_date":    "ship_date",
+    "delivery_date": "delivery_date",
+    "delivery_time": "delivery_time",
+    "delivery_timezone": "delivery_timezone",
+    "bill_to":      "bill_to",
+    "weight_value": "weight_value",
+    "weight_unit":  "weight_unit"
+  },
+  "references": [
+    {"type": "AWB",          "json_key": "awb"},
+    {"type": "TRACKING_ID",  "json_key": "tracking_id"},
+    {"type": "PTN_OR_ORDER_REF", "json_key": "order_references"}
+  ]
+}

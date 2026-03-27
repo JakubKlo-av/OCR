@@ -1,0 +1,40 @@
+  1: === OCR: Full Page 1 (Real Positions) ===
+  2: Invoice
+  3:             AIRSPACE
+  4:                                                                                                                                                      #3070034
+  5:                                                                                                                                                            10/14/2025
+  6:             Bill To                                               Remit  Payment    To                                TOTAL
+  7:             Autoliv    Domestic                                  Airspace   Technologies,     Inc
+  8:                      -
+  9:             7 World   Trade   Center                             PO  Box  737032
+ 10:             Klarabersviadukten      70                          Dallas, TX 75373-7032     USA
+ 11:             Stockholm    Stockholm    County   11120          (858) 263-1953
+ 12:             Sweden                                               remittance@airspace.com                                                     1               °
+ 13:                                                                  Airspace   ACH   Information:
+ 14:                                                                   Bank   Name:   JPMorgan    Chase
+ 15:                                                                  ABA   Number:    322271627                                                  Due   Date:  1/12/2026
+ 16:                                                                  Account:   Number:    866702282
+ 17:                                                                  Account:   Airspace   Technologies,     Inc.
+ 18:             Terms                  Due Date              Order Number          Order References      Commodity              Order Source                  PO#
+ 19:             Net 90                1/12/2026             Sales Order           CTMC   Co., LTD. -    Other  -              Ops  quote
+ 20:                                                           #3070034               Korea  (South)        Automotive   Parts    builder
+ 21:                                                                                  91385
+ 22:             Date                  AWB                    Tracking ID           Pickup Address        Delivery Address      Dims                  POD
+ 23:             10/14/2025            13948622022           ATAJKYJDCD             CTMC   Co., LTD.,     Autoliv Mexico,       120.0*80.0*69.0c       Delivered  at Oct
+ 24:                                                                                  73 HAEBONG     RO,    Av. DelosSauces        m, 510.75kg;          13 25 20 30 CST
+ 25:                                                                                  DANWON-GU,            #9, parque            120.0*80.0*69.0c      and signed  by
+ 26:                                                                                  ANSAN-CITY,            industrial Lerma,     =m, 510.75kg;          Autoliv MXAG   CO
+ 27:                                                                                  15424                  Lerma,  52000         120.0*80.0*69.0c      =STAMP  in
+ 28:                                                                                                                                m, 510.75kg;
+ 29:                                                                                                                                120.0*80.0*69.0c
+ 30:                                                                                                                                m, 510.75kg
+ 31:             Item                                   Description                           Quantity                                                              Amount
+ 32:             Pickup                                SPECIAL  RATE                         0.0                                                                $18,200.00
+ 33:                                                                                                                                    Subtotal                $18,200.00
+ 34:                                                                                                                               Tax  Total  (%)
+ 35:                                                                                                                                         Total               $18,200.00
+ 36:                                                                                                                               Amount     Due               $18,200.00
+ 37:                                                                                                                                                                 1 of 1
+ 38: === End of Page 1 ===
+
+Total lines: 38

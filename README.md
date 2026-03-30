@@ -1,7 +1,5 @@
 ## 1. Install Tesseract OCR and poppler (Windows)
 
-Download the Windows installer from UB-Mannheim (best build):
-
 tesseract:
 https://github.com/UB-Mannheim/tesseract/wiki 
 
